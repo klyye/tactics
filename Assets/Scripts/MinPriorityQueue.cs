@@ -82,7 +82,7 @@ public class MinPriorityQueue<T>
     /**
      * Returns the index of the left child of the node at i.
      */
-    private int GetLeftOf(int i)
+    private static int GetLeftOf(int i)
     {
         return i * 2;
     }
@@ -90,7 +90,7 @@ public class MinPriorityQueue<T>
     /**
      * Returns the index of the right child of the node at i.
      */
-    private int GetRightOf(int i)
+    private static int GetRightOf(int i)
     {
         return 2 * i + 1;
     }
@@ -99,7 +99,7 @@ public class MinPriorityQueue<T>
      * Returns the index of the node that is the parent of the
      * node at i.
      */
-    private int GetParentOf(int i)
+    private static int GetParentOf(int i)
     {
         return i / 2;
     }

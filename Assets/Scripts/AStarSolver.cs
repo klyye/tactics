@@ -1,42 +1,43 @@
 ﻿using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 public class AStarSolver
 {
-    private readonly Func<Coord, Coord, double> _heuristic;
+    private readonly Func<Vector2Int, Vector2Int, float> _heuristic;
 
     // maps a pair <start, end> to the list of coordinates needed to go from start to end
-    private readonly IDictionary<Tuple<Coord, Coord>, IList<Coord>> _solution;
+    private readonly IDictionary<Tuple<Vector2Int, Vector2Int>, IList<Vector2Int>> _solution;
     private readonly LevelGrid _world;
-    private IDictionary<Coord, double> _distTo;
-    private IDictionary<Coord, Coord> _edgeTo;
-    private Coord _end;
+    private IDictionary<Vector2Int, float> _distTo;
+    private IDictionary<Vector2Int, Vector2Int> _edgeTo;
+    private Vector2Int _end;
 
-    private MinPriorityQueue<Coord> _pq;
+    private MinPriorityQueue<Vector2Int> _pq;
 
-    public AStarSolver(LevelGrid world, Func<Coord, Coord, double> heuristic)
+    public AStarSolver(LevelGrid world, Func<Vector2Int, Vector2Int, float> heuristic)
     {
         _world = world;
         _heuristic = heuristic;
-        _solution = new Dictionary<Tuple<Coord, Coord>, IList<Coord>>();
+        _solution = new Dictionary<Tuple<Vector2Int, Vector2Int>, IList<Vector2Int>>();
     }
 
     // returns null on failure
-    public IList<Coord> ShortestPath(Coord start, Coord end)
+    public IList<Vector2Int> ShortestPath(Vector2Int start, Vector2Int end)
     {
-        var pair = new Tuple<Coord, Coord>(start, end);
+        var pair = new Tuple<Vector2Int, Vector2Int>(start, end);
         if (_solution.ContainsKey(pair)) return _solution[pair];
 
         return Solve(start, end) ? _solution[pair] : null;
     }
 
-    private bool Solve(Coord start, Coord end)
+    private bool Solve(Vector2Int start, Vector2Int end)
     {
         _end = end;
-        var currPath = new List<Coord>();
-        _pq = new MinPriorityQueue<Coord>();
-        _distTo = new Dictionary<Coord, double>();
-        _edgeTo = new Dictionary<Coord, Coord>();
+        var currPath = new List<Vector2Int>();
+        _pq = new MinPriorityQueue<Vector2Int>();
+        _distTo = new Dictionary<Vector2Int, float>();
+        _edgeTo = new Dictionary<Vector2Int, Vector2Int>();
 
         _pq.Insert(start, _heuristic.Invoke(start, end));
         _distTo[start] = 0;
@@ -45,13 +46,9 @@ public class AStarSolver
         while (_pq.Size() > 0 && !_pq.Peek().Equals(end))
         {
             var p = _pq.RemoveMin();
-            for (var dx = -1; dx <= 1; dx++)
-            for (var dy = -1; dy <= 1; dy++)
-            {
-                if (dx == 0 && dy == 0 || dx != 0 && dy != 0) continue;
-                var adj = new Coord(p.x + dx, p.y + dy);
-                if (_world.WithinBounds(adj)) Relax(p, adj);
-            }
+            foreach (var adj in p.Adjacent())
+                if (_world.WithinBounds(adj))
+                    Relax(p, adj);
         }
 
         if (_pq.Size() == 0) return false;
@@ -65,13 +62,13 @@ public class AStarSolver
         }
 
         currPath.Reverse();
-        _solution[new Tuple<Coord, Coord>(start, end)] = currPath;
+        _solution[new Tuple<Vector2Int, Vector2Int>(start, end)] = currPath;
         return true;
     }
 
-    private void Relax(Coord from, Coord to)
+    private void Relax(Vector2Int from, Vector2Int to)
     {
-        var weight = (int) _world.GetLocation(to).terrain;
+        var weight = (int) _world.GetLocation(to).land;
         if (!(DistTo(from) + weight < DistTo(to))) return;
         _edgeTo[to] = from;
         _distTo[to] = DistTo(from) + weight;
@@ -79,8 +76,8 @@ public class AStarSolver
         _pq.Insert(to, pri);
     }
 
-    private double DistTo(Coord c)
+    private float DistTo(Vector2Int c)
     {
-        return _distTo.ContainsKey(c) ? _distTo[c] : double.MaxValue;
+        return _distTo.ContainsKey(c) ? _distTo[c] : float.MaxValue;
     }
 }

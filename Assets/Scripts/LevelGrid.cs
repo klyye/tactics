@@ -1,4 +1,6 @@
-﻿public class LevelGrid
+﻿using UnityEngine;
+
+public class LevelGrid
 {
     private readonly Location[,] _grid;
 
@@ -9,29 +11,29 @@
         // grid starts out as all ground with no units
         for (var r = 0; r < _grid.GetLength(1); r++)
         for (var c = 0; c < _grid.GetLength(0); c++)
-            _grid[c, r] = new Location(null, Terrain.GROUND);
+            _grid[c, r] = new Location(null, Land.DIRT);
     }
 
     public int width => _grid.GetLength(0);
 
     public int height => _grid.GetLength(1);
 
-    public Location GetLocation(Coord c)
+    public Location GetLocation(Vector2Int c)
     {
         return _grid[c.x, c.y];
     }
 
-    public void SetTerrain(Coord c, Terrain t)
+    public void SetTerrain(Vector2Int c, Land t)
     {
-        _grid[c.x, c.y].terrain = t;
+        _grid[c.x, c.y].land = t;
     }
 
-    public void PlaceUnit(Coord c, Unit u)
+    public void PlaceUnit(Vector2Int c, Unit u)
     {
         _grid[c.x, c.y].unit = u;
     }
 
-    public bool WithinBounds(Coord c)
+    public bool WithinBounds(Vector2Int c)
     {
         return c.x >= 0 && c.y >= 0 && c.x < width && c.y < height;
     }
