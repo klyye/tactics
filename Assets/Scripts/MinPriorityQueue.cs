@@ -9,11 +9,12 @@
  */
 public class MinPriorityQueue<T>
 {
-
     /**
      * An List that stores the nodes in this binary heap.
      */
     private readonly IList<Node> _contents;
+
+    private readonly IDictionary<T, int> _itemToIndex;
 
     /**
      * A constructor that initializes an empty ArrayHeap.
@@ -21,6 +22,7 @@ public class MinPriorityQueue<T>
     public MinPriorityQueue()
     {
         _contents = new List<Node> {null};
+        _itemToIndex = new Dictionary<T, int>();
     }
 
     /**
@@ -50,6 +52,7 @@ public class MinPriorityQueue<T>
         // add null elements until it is the right size
         while (index + 1 > _contents.Count) _contents.Add(null);
         _contents[index] = n;
+        _itemToIndex[n.Item()] = index;
     }
 
     /**
@@ -61,6 +64,7 @@ public class MinPriorityQueue<T>
             return null;
         var output = _contents[index];
         _contents.RemoveAt(index);
+        _itemToIndex.Remove(output.Item());
         return output;
     }
 
@@ -71,8 +75,8 @@ public class MinPriorityQueue<T>
     {
         var node1 = GetNode(index1);
         var node2 = GetNode(index2);
-        _contents[index1] = node2;
-        _contents[index2] = node1;
+        SetNode(index1, node2);
+        SetNode(index2, node1);
     }
 
     /**
@@ -82,8 +86,6 @@ public class MinPriorityQueue<T>
     {
         return i * 2;
     }
-
-    /* FILL IN THE METHODS BELOW. */
 
     /**
      * Returns the index of the right child of the node at i.
@@ -100,19 +102,6 @@ public class MinPriorityQueue<T>
     private int GetParentOf(int i)
     {
         return i / 2;
-    }
-
-    /**
-     * Returns the index of the node with smaller priority. If one
-     * node is null, then returns the index of the non-null node.
-     * Precondition: at least one of the nodes is not null.
-     */
-    private int Min(int index1, int index2)
-    {
-        Node n1 = GetNode(index1), n2 = GetNode(index2);
-        if (n1 == null) return index2;
-        if (n2 == null) return index1;
-        return n1.Priority() < n2.Priority() ? index1 : index2;
     }
 
     /**
@@ -183,6 +172,11 @@ public class MinPriorityQueue<T>
      */
     public void Insert(T item, double priority)
     {
+        if (Contains(item))
+        {
+            ChangePriority(item, priority);
+            return;
+        }
         SetNode(Size() + 1, new Node(item, priority));
         BubbleUp(Size());
     }
@@ -203,23 +197,20 @@ public class MinPriorityQueue<T>
         return output;
     }
 
+    public bool Contains(T item)
+    {
+        return _itemToIndex.ContainsKey(item);
+    }
+
     /**
      * Changes the node in this heap with the given item to have the given
      * priority. You can assume the heap will not have two nodes with the
      * same item. Does nothing if the item is not in the heap. Check for
      * item equality with .equals(), not ==
      */
-    public void ChargePriority(T item, double priority)
+    public void ChangePriority(T item, double priority)
     {
-        var index = 0;
-        for (var i = 1; i <= Size(); i++)
-            if (GetNode(i).Item().Equals(item))
-            {
-                index = i;
-                break;
-            }
-
-        if (index == 0) return;
+        var index = _itemToIndex[item];
         SetNode(index, new Node(item, priority));
         BubbleDown(index);
         BubbleUp(index);
@@ -228,10 +219,10 @@ public class MinPriorityQueue<T>
     /**
      * A Node class that stores items and their associated priorities.
      */
-    public class Node
+    private class Node
     {
         private readonly T _item;
-        private double _priority;
+        private readonly double _priority;
 
         public Node(T item, double priority)
         {
@@ -247,11 +238,6 @@ public class MinPriorityQueue<T>
         public double Priority()
         {
             return _priority;
-        }
-
-        public void SetPriority(double priority)
-        {
-            _priority = priority;
         }
     }
 }
