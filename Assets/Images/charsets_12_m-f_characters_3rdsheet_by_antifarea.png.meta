@@ -1,0 +1,5782 @@
+fileFormatVersion: 2
+guid: 3a8a83516c712ac4e95f483ca3ab1d6e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8449215906308262718
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_0
+  - first:
+      213: -4539352369613429630
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_1
+  - first:
+      213: 2071519943074097491
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_2
+  - first:
+      213: 7195092455615966216
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_3
+  - first:
+      213: 4547053386014744962
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_4
+  - first:
+      213: -6881876376220582198
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_5
+  - first:
+      213: 7345842497522689618
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_6
+  - first:
+      213: 5414207269023498343
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_7
+  - first:
+      213: -7293599345122086462
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_8
+  - first:
+      213: -2434547524499948639
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_9
+  - first:
+      213: 3861241944342492555
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_10
+  - first:
+      213: -1225581387979904837
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_11
+  - first:
+      213: 1264665535743054075
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_12
+  - first:
+      213: -1491476204974191270
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_13
+  - first:
+      213: -2042620848459683253
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_14
+  - first:
+      213: 1330616210068737901
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_15
+  - first:
+      213: -6141805981149312379
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_16
+  - first:
+      213: -4885717299904921034
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_17
+  - first:
+      213: 4856391820913099788
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_18
+  - first:
+      213: 4360017543491337580
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_19
+  - first:
+      213: -763912076159245509
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_20
+  - first:
+      213: -2840597685685333485
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_21
+  - first:
+      213: -111440036688657951
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_22
+  - first:
+      213: -8941352867842998371
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_23
+  - first:
+      213: 814493327408091443
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_24
+  - first:
+      213: 807894962492955556
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_25
+  - first:
+      213: -6152786753863305576
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_26
+  - first:
+      213: -6896608177681856935
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_27
+  - first:
+      213: -9041162329005060436
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_28
+  - first:
+      213: 4004482785362097853
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_29
+  - first:
+      213: 7656784899037173781
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_30
+  - first:
+      213: -6901733941137923432
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_31
+  - first:
+      213: -8561327376797112309
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_32
+  - first:
+      213: -3777525683586382653
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_33
+  - first:
+      213: 5924056013152438791
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_34
+  - first:
+      213: 2464177562573190765
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_35
+  - first:
+      213: -6057683963160605923
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_36
+  - first:
+      213: 7924608368428928556
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_37
+  - first:
+      213: 3903129676882249930
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_38
+  - first:
+      213: 7430889797524451347
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_39
+  - first:
+      213: 1639513844663454493
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_40
+  - first:
+      213: -6822197467746336480
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_41
+  - first:
+      213: 6614258078298980881
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_42
+  - first:
+      213: 8189613491256423597
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_43
+  - first:
+      213: 5699003546962185387
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_44
+  - first:
+      213: -5703820660324803961
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_45
+  - first:
+      213: 6251719867985462914
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_46
+  - first:
+      213: -2478055853126925094
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_47
+  - first:
+      213: 7405153241737727994
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_48
+  - first:
+      213: -4225722260057391400
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_49
+  - first:
+      213: -3921357853605852317
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_50
+  - first:
+      213: 7136133731623464574
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_51
+  - first:
+      213: 2958146371132846467
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_52
+  - first:
+      213: 6840529994190906459
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_53
+  - first:
+      213: -2523598753428568232
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_54
+  - first:
+      213: 5100967692753642550
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_55
+  - first:
+      213: -7077159987961208338
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_56
+  - first:
+      213: -6880027414544069593
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_57
+  - first:
+      213: -1608999776120910025
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_58
+  - first:
+      213: 7570962498064638548
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_59
+  - first:
+      213: 8863060377218323955
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_60
+  - first:
+      213: 207098747219645819
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_61
+  - first:
+      213: 6373500828902173862
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_62
+  - first:
+      213: 3130621214050065777
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_63
+  - first:
+      213: -4895444784017648802
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_64
+  - first:
+      213: -5312698680291312164
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_65
+  - first:
+      213: -1570305409591304813
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_66
+  - first:
+      213: -1332761683162673230
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_67
+  - first:
+      213: 5333461966655799648
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_68
+  - first:
+      213: 7508765565877961591
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_69
+  - first:
+      213: -6421042899925204360
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_70
+  - first:
+      213: 8607095218256792376
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_71
+  - first:
+      213: -5825505132970825548
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_72
+  - first:
+      213: -6000186488602734161
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_73
+  - first:
+      213: 5538575804129364363
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_74
+  - first:
+      213: 6665553841025063173
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_75
+  - first:
+      213: -6145695669541833506
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_76
+  - first:
+      213: -3871062147455139233
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_77
+  - first:
+      213: -8147509506164343266
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_78
+  - first:
+      213: 8819975211740714718
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_79
+  - first:
+      213: -1525919505159447525
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_80
+  - first:
+      213: -8198353230214794013
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_81
+  - first:
+      213: -3381404959669156740
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_82
+  - first:
+      213: -2732885935681291564
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_83
+  - first:
+      213: -2626522023105989347
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_84
+  - first:
+      213: -9130014249782533409
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_85
+  - first:
+      213: -2150057682440060049
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_86
+  - first:
+      213: -9151006019743875707
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_87
+  - first:
+      213: -1185967274773698773
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_88
+  - first:
+      213: -6307162644507252327
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_89
+  - first:
+      213: -6837731526166814180
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_90
+  - first:
+      213: -7410435690524194808
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_91
+  - first:
+      213: -4469339737560581545
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_92
+  - first:
+      213: 5659505915314000548
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_93
+  - first:
+      213: 6525998844147898035
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_94
+  - first:
+      213: -1922911943185953590
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_95
+  - first:
+      213: -5539313458488779155
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_96
+  - first:
+      213: -2022944070189249565
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_97
+  - first:
+      213: 7897231675576998283
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_98
+  - first:
+      213: 323609652913830737
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_99
+  - first:
+      213: 401371517665235759
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_100
+  - first:
+      213: -9221391683030115767
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_101
+  - first:
+      213: 5391813043861806593
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_102
+  - first:
+      213: 1823915382994280965
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_103
+  - first:
+      213: -1739394739309037812
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_104
+  - first:
+      213: 7885294079923154503
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_105
+  - first:
+      213: 3709402899534531798
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_106
+  - first:
+      213: -4830763121678158033
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_107
+  - first:
+      213: 3785442700116720441
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_108
+  - first:
+      213: -7901941184517992312
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_109
+  - first:
+      213: 1067237834964448386
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_110
+  - first:
+      213: -2095947172698644610
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_111
+  - first:
+      213: -3355207730454809397
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_112
+  - first:
+      213: -5027170249419534215
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_113
+  - first:
+      213: -5901546481977314090
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_114
+  - first:
+      213: 8492487352079366865
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_115
+  - first:
+      213: -3309265171957049878
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_116
+  - first:
+      213: -7222563591080233013
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_117
+  - first:
+      213: 7585167228026988342
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_118
+  - first:
+      213: 4770094837643485773
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_119
+  - first:
+      213: 2119562930045586354
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_120
+  - first:
+      213: -107898334309681037
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_121
+  - first:
+      213: 2999319042812922964
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_122
+  - first:
+      213: 690639806256632470
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_123
+  - first:
+      213: -2042874479904390281
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_124
+  - first:
+      213: -8582819882796670388
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_125
+  - first:
+      213: -5771971129103763469
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_126
+  - first:
+      213: -7350781004087573120
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_127
+  - first:
+      213: 568003534621198531
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_128
+  - first:
+      213: 5302473642475804642
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_129
+  - first:
+      213: 48581241321768077
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_130
+  - first:
+      213: -4229568193045214582
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_131
+  - first:
+      213: -4096281531322608608
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_132
+  - first:
+      213: -1031094822391763510
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_133
+  - first:
+      213: -355736441843154512
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_134
+  - first:
+      213: 3791862808829777098
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_135
+  - first:
+      213: 2047681863782442071
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_136
+  - first:
+      213: -1364190562192021014
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_137
+  - first:
+      213: 5717950757279153225
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_138
+  - first:
+      213: 2101811412298653555
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_139
+  - first:
+      213: -5729169228145622606
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_140
+  - first:
+      213: -4047340321312300912
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_141
+  - first:
+      213: -4198758910051739378
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_142
+  - first:
+      213: -2756485032557712363
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_143
+  - first:
+      213: 806646464786754602
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_144
+  - first:
+      213: -4372658232902386517
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_145
+  - first:
+      213: 1301897511767091843
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_146
+  - first:
+      213: 8004274106397594961
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_147
+  - first:
+      213: -8337134537719926666
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_148
+  - first:
+      213: 5424068903257580385
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_149
+  - first:
+      213: 1049490955724348872
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_150
+  - first:
+      213: -8166305291109275539
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_151
+  - first:
+      213: 2747126704047243566
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_152
+  - first:
+      213: -5613278717013840534
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_153
+  - first:
+      213: -7973879877431673613
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_154
+  - first:
+      213: -1464080706298330951
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_155
+  - first:
+      213: 9198035960878334126
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_156
+  - first:
+      213: 6065331388232662251
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_157
+  - first:
+      213: 508557854019567397
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_158
+  - first:
+      213: 8460430774428903643
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_159
+  - first:
+      213: 8687984482190444380
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_160
+  - first:
+      213: -2163282596743857675
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_161
+  - first:
+      213: -1593862491353165431
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_162
+  - first:
+      213: 2983206445941221087
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_163
+  - first:
+      213: -4888291485960537465
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_164
+  - first:
+      213: -2703603302893018424
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_165
+  - first:
+      213: -932219778379755184
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_166
+  - first:
+      213: -4743099838856404670
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_167
+  - first:
+      213: 7116314852178451336
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_168
+  - first:
+      213: 4782462326450956435
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_169
+  - first:
+      213: -7361950015099545190
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_170
+  - first:
+      213: 6892397914396149684
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_171
+  - first:
+      213: 812068088994916266
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_172
+  - first:
+      213: -6867354305574631486
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_173
+  - first:
+      213: -6989728508169984568
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_174
+  - first:
+      213: 5827632210772946194
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_175
+  - first:
+      213: 6627920131993817606
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_176
+  - first:
+      213: -6117567169390994832
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_177
+  - first:
+      213: 5129390739853535734
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_178
+  - first:
+      213: 1873090973772396524
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_179
+  - first:
+      213: 1944012688141107964
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_180
+  - first:
+      213: -4620274930342979560
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_181
+  - first:
+      213: -8700088503012077358
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_182
+  - first:
+      213: -2231959335641077982
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_183
+  - first:
+      213: 6603281449283593735
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_184
+  - first:
+      213: 8610603779135507588
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_185
+  - first:
+      213: 1441196008713676343
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_186
+  - first:
+      213: -6422790725030511757
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_187
+  - first:
+      213: -519929632935517682
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_188
+  - first:
+      213: -5930212472881401121
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_189
+  - first:
+      213: -2141778691549605532
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_190
+  - first:
+      213: 8465308498705926470
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_191
+  - first:
+      213: 4019089738187753097
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_192
+  - first:
+      213: 8214276211478380040
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_193
+  - first:
+      213: 1746387055957892415
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_194
+  - first:
+      213: 6317915332196540045
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_195
+  - first:
+      213: 2562644524000920157
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_196
+  - first:
+      213: -8516157196906179860
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_197
+  - first:
+      213: 5887756113384722594
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_198
+  - first:
+      213: -3371172884221267337
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_199
+  - first:
+      213: -2938014302963922076
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_200
+  - first:
+      213: 4171232264285021964
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_201
+  - first:
+      213: 7675148316784195139
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_202
+  - first:
+      213: -4726542719059916698
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_203
+  - first:
+      213: 6137090549425880251
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_204
+  - first:
+      213: -2226015692692443599
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_205
+  - first:
+      213: -6072792776448941378
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_206
+  - first:
+      213: -6172142491653153778
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_207
+  - first:
+      213: -6895430053836047519
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_208
+  - first:
+      213: 9211917884940323936
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_209
+  - first:
+      213: 5169334849205432502
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_210
+  - first:
+      213: 9076564542710489187
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_211
+  - first:
+      213: -2075797580751486043
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_212
+  - first:
+      213: 1324036042054602978
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_213
+  - first:
+      213: 8246957690562637436
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_214
+  - first:
+      213: -1329212509318131773
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_215
+  - first:
+      213: -7595765488922090145
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_216
+  - first:
+      213: 5120473750295729853
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_217
+  - first:
+      213: -1814163890942317720
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_218
+  - first:
+      213: -5833208598018238218
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_219
+  - first:
+      213: -2595562033068018480
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_220
+  - first:
+      213: -2907718920451369847
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_221
+  - first:
+      213: 5021014652457657428
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_222
+  - first:
+      213: 7269922192191698143
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_223
+  - first:
+      213: -8510751266557287278
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_224
+  - first:
+      213: -6474289507738525306
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_225
+  - first:
+      213: -5898391556097448542
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_226
+  - first:
+      213: 7742856248615475325
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_227
+  - first:
+      213: -4909375868552270870
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_228
+  - first:
+      213: -690632982809791499
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_229
+  - first:
+      213: -7241555405504420904
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_230
+  - first:
+      213: -3919653892367614147
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_231
+  - first:
+      213: -7861511454651818947
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_232
+  - first:
+      213: 6508299812047887149
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_233
+  - first:
+      213: -1755804379863273133
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_234
+  - first:
+      213: -6397291224846007153
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_235
+  - first:
+      213: -5189349138497405199
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_236
+  - first:
+      213: 586819488241025989
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_237
+  - first:
+      213: 6759505700278490426
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_238
+  - first:
+      213: -8195495894031983122
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_239
+  - first:
+      213: 7064606535312528026
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_240
+  - first:
+      213: 7543838778102569171
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_241
+  - first:
+      213: 6033805975803933125
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_242
+  - first:
+      213: 8836114115391704860
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_243
+  - first:
+      213: 3261411908976261438
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_244
+  - first:
+      213: 2606005126721867249
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_245
+  - first:
+      213: 5300052459815537907
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_246
+  - first:
+      213: 3678465558708698833
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_247
+  - first:
+      213: 4222894540678407641
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_248
+  - first:
+      213: -3740476811703797887
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_249
+  - first:
+      213: -7420585095204873418
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_250
+  - first:
+      213: 6857365507193489488
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_251
+  - first:
+      213: 9138586117091024194
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_252
+  - first:
+      213: 2930649016210076058
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_253
+  - first:
+      213: -8779488127995968248
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_254
+  - first:
+      213: -6661999438302762864
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_255
+  - first:
+      213: 1324255223270370162
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_256
+  - first:
+      213: 3600179466859850926
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_257
+  - first:
+      213: -4148478782739154284
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_258
+  - first:
+      213: -2997685199947244890
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_259
+  - first:
+      213: -4240231983224161719
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_260
+  - first:
+      213: 3877832034308674477
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_261
+  - first:
+      213: 7632438764147520192
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_262
+  - first:
+      213: -554147990698543492
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_263
+  - first:
+      213: -3467613289184855672
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_264
+  - first:
+      213: -5971916369609451609
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_265
+  - first:
+      213: 3182911886527252645
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_266
+  - first:
+      213: -7502023374825703362
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_267
+  - first:
+      213: 319085001989101540
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_268
+  - first:
+      213: 2707090881304166335
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_269
+  - first:
+      213: 8106393557909130050
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_270
+  - first:
+      213: -8714907894749722018
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_271
+  - first:
+      213: -2038650259507203511
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_272
+  - first:
+      213: 8206332562659996758
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_273
+  - first:
+      213: 1838008650502609140
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_274
+  - first:
+      213: 7607860903337083778
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_275
+  - first:
+      213: -313510897298355242
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_276
+  - first:
+      213: 6315129633079018427
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_277
+  - first:
+      213: -1298056199127093225
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_278
+  - first:
+      213: 7686689055282191209
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_279
+  - first:
+      213: 2413503774510819839
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_280
+  - first:
+      213: 5142946965249339168
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_281
+  - first:
+      213: 7977099359493225900
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_282
+  - first:
+      213: -4937404503034426606
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_283
+  - first:
+      213: -7519680383398794671
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_284
+  - first:
+      213: 5876866591136990505
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_285
+  - first:
+      213: -8325345903242420765
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_286
+  - first:
+      213: 1991655548023967163
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_287
+  - first:
+      213: 5718465937702534236
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_288
+  - first:
+      213: 1250356911818125449
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_289
+  - first:
+      213: 6762915782310556638
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_290
+  - first:
+      213: -8077585739857611324
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_291
+  - first:
+      213: -6260644981046559078
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_292
+  - first:
+      213: 2681727431732716111
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_293
+  - first:
+      213: -994451225371042227
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_294
+  - first:
+      213: 3086934257436903571
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_295
+  - first:
+      213: -7415157393669934913
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_296
+  - first:
+      213: 3662374218037131146
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_297
+  - first:
+      213: 1900517627793051653
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_298
+  - first:
+      213: -3232644728200975585
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_299
+  - first:
+      213: 1258919993645667821
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_300
+  - first:
+      213: 8922266471887208275
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_301
+  - first:
+      213: 7419434300691160456
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_302
+  - first:
+      213: 917089487656192522
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_303
+  - first:
+      213: 3094517013931650441
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_304
+  - first:
+      213: 8492967402790630773
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_305
+  - first:
+      213: -4585997796964148475
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_306
+  - first:
+      213: -1227901497951433251
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_307
+  - first:
+      213: -974109071823914044
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_308
+  - first:
+      213: -4089331580340208561
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_309
+  - first:
+      213: -2277263337875529127
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_310
+  - first:
+      213: 2826167702576845278
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_311
+  - first:
+      213: 8769457405047468110
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_312
+  - first:
+      213: 1176124281784909639
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_313
+  - first:
+      213: -1310926004806775766
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_314
+  - first:
+      213: 801258998910124836
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_315
+  - first:
+      213: 348096797566273498
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_316
+  - first:
+      213: 6966807058970188172
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_317
+  - first:
+      213: 1861617265814217006
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_318
+  - first:
+      213: -169739862778978865
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_319
+  - first:
+      213: 1174498388991539131
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_320
+  - first:
+      213: -7302281720663552954
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_321
+  - first:
+      213: 5294546151893189926
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_322
+  - first:
+      213: 7470551851532443571
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_323
+  - first:
+      213: 3951183009333277299
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_324
+  - first:
+      213: -1312211167679036112
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_325
+  - first:
+      213: 6720442382597991455
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_326
+  - first:
+      213: -8686574106465597904
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_327
+  - first:
+      213: -856028437828891420
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_328
+  - first:
+      213: 4972896638265677668
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_329
+  - first:
+      213: 7278704481296583775
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_330
+  - first:
+      213: 5095751515977889994
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_331
+  - first:
+      213: 4728722386370809933
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_332
+  - first:
+      213: -3456094232661521844
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_333
+  - first:
+      213: 146460602805775786
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_334
+  - first:
+      213: -5428887566268505546
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_335
+  - first:
+      213: 7721500694148829880
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_336
+  - first:
+      213: 4770422968776549006
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_337
+  - first:
+      213: -871213477720718093
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_338
+  - first:
+      213: -7845925016484737244
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_339
+  - first:
+      213: -8183538500299885230
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_340
+  - first:
+      213: 3890923298875912202
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_341
+  - first:
+      213: 6579544922632707056
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_342
+  - first:
+      213: -154394036101015976
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_343
+  - first:
+      213: -5300043676568155580
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_344
+  - first:
+      213: 240956400709708920
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_345
+  - first:
+      213: 7892775439526631656
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_346
+  - first:
+      213: -7030611762190932401
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_347
+  - first:
+      213: -8358982387885778212
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_348
+  - first:
+      213: -8506277192951530338
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_349
+  - first:
+      213: -8367715588868829624
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_350
+  - first:
+      213: 8101298298347453877
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_351
+  - first:
+      213: 5517040699531841856
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_352
+  - first:
+      213: 2971134638756590588
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_353
+  - first:
+      213: 8271299128785108343
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_354
+  - first:
+      213: 8824472435194325874
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_355
+  - first:
+      213: -3527935736656081933
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_356
+  - first:
+      213: 2884463628956665931
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_357
+  - first:
+      213: -2608911058465398459
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_358
+  - first:
+      213: -4359636434183105786
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_359
+  - first:
+      213: 1080130683316607088
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_360
+  - first:
+      213: -7113904205524237237
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_361
+  - first:
+      213: 1615394005551968635
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_362
+  - first:
+      213: -1301846250591344612
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_363
+  - first:
+      213: 390648611333677094
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_364
+  - first:
+      213: 8252361369422482917
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_365
+  - first:
+      213: -4294012630864464196
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_366
+  - first:
+      213: -2425130936727908741
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_367
+  - first:
+      213: -1746772861456927366
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_368
+  - first:
+      213: -762211890639241939
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_369
+  - first:
+      213: 4277417838564075847
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_370
+  - first:
+      213: 622412321285865081
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_371
+  - first:
+      213: 5699801484299736243
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_372
+  - first:
+      213: 8759445651644744198
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_373
+  - first:
+      213: 2102374377997113216
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_374
+  - first:
+      213: -4151978317404033826
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_375
+  - first:
+      213: -6150124667904351150
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_376
+  - first:
+      213: 6673693396030502074
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_377
+  - first:
+      213: 4612070271874772878
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_378
+  - first:
+      213: 7389058431775509609
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_379
+  - first:
+      213: -6659366390913583350
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_380
+  - first:
+      213: 1106117430368138314
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_381
+  - first:
+      213: 6533559053725916831
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_382
+  - first:
+      213: -7237253946950513595
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_383
+  - first:
+      213: 3518835135312955299
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_384
+  - first:
+      213: 7101361854331555340
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_385
+  - first:
+      213: -7483505935357437210
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_386
+  - first:
+      213: 6679895559759720537
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_387
+  - first:
+      213: -8826673474037403056
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_388
+  - first:
+      213: 2788909269482306875
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_389
+  - first:
+      213: -2652287860962896851
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_390
+  - first:
+      213: 8365710557438247804
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_391
+  - first:
+      213: -7020547128498457739
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_392
+  - first:
+      213: 5104459783742168793
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_393
+  - first:
+      213: 6921268081471773009
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_394
+  - first:
+      213: -2647463045397324176
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_395
+  - first:
+      213: -939847567246415031
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_396
+  - first:
+      213: -6237365821416388240
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_397
+  - first:
+      213: 2264345767964612900
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_398
+  - first:
+      213: 891025992452522003
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_399
+  - first:
+      213: 6441862088262734147
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_400
+  - first:
+      213: -6511201810389070419
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_401
+  - first:
+      213: -1111048970793216640
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_402
+  - first:
+      213: 4457795004359930339
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_403
+  - first:
+      213: 4574090638155261330
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_404
+  - first:
+      213: 606337634063397075
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_405
+  - first:
+      213: 1006704764348686955
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_406
+  - first:
+      213: -224343263528913046
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_407
+  - first:
+      213: -1414308134515167738
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_408
+  - first:
+      213: -8859600575511275492
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_409
+  - first:
+      213: 6396920777715160027
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_410
+  - first:
+      213: 8760502682221309315
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_411
+  - first:
+      213: -8686920053147360935
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_412
+  - first:
+      213: -2695016126904523684
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_413
+  - first:
+      213: -4731041111373411439
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_414
+  - first:
+      213: 6730130933437305133
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_415
+  - first:
+      213: 561067561028458687
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_416
+  - first:
+      213: 574959293982359754
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_417
+  - first:
+      213: -1246709262742431402
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_418
+  - first:
+      213: -8322456641447138655
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_419
+  - first:
+      213: -3529052928752839289
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_420
+  - first:
+      213: 1569418672492593616
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_421
+  - first:
+      213: 6812837832464390116
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_422
+  - first:
+      213: -8155193973721354849
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_423
+  - first:
+      213: -5531217372170765656
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_424
+  - first:
+      213: -8299430566791736383
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_425
+  - first:
+      213: -8650296022545478903
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_426
+  - first:
+      213: 3470571847568719799
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_427
+  - first:
+      213: 2957589961569057843
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_428
+  - first:
+      213: 2764189483535868510
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_429
+  - first:
+      213: 8240788073922963884
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_430
+  - first:
+      213: 2910532115542180461
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_431
+  - first:
+      213: 303791047160011883
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_432
+  - first:
+      213: 2524056712591054018
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_433
+  - first:
+      213: -66084891362536911
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_434
+  - first:
+      213: 8570065980819732979
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_435
+  - first:
+      213: -2935367970543066067
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_436
+  - first:
+      213: -2052224349684204738
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_437
+  - first:
+      213: -4315977618709867260
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_438
+  - first:
+      213: 8415801958432693725
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_439
+  - first:
+      213: -5186912681723675508
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_0
+  - first:
+      213: 3791228001307541872
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_1
+  - first:
+      213: 5721277435902703030
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_2
+  - first:
+      213: -3961330612147915672
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_3
+  - first:
+      213: 6522337295690385418
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_4
+  - first:
+      213: -3885717443397114392
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_5
+  - first:
+      213: 5452313344538512011
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_6
+  - first:
+      213: 3132108732359736109
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_7
+  - first:
+      213: 5908332292369940537
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_8
+  - first:
+      213: 4384075411009395978
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_9
+  - first:
+      213: 3063221587372087772
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_10
+  - first:
+      213: -6215081366972720878
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_11
+  - first:
+      213: 1661926694430129493
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_12
+  - first:
+      213: 8591045326682437492
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_13
+  - first:
+      213: -6138502549088253594
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_14
+  - first:
+      213: -2568651478728857581
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_15
+  - first:
+      213: -8695285182747979848
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_16
+  - first:
+      213: -7720222652540661764
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_17
+  - first:
+      213: -8123147060014821163
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_18
+  - first:
+      213: 302287113976379657
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_19
+  - first:
+      213: 4635507931389946053
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_20
+  - first:
+      213: 3522032768782846889
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_21
+  - first:
+      213: 361639304047696201
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_22
+  - first:
+      213: 8380685617039548210
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_23
+  - first:
+      213: -5322539813672509701
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_24
+  - first:
+      213: 7493630306979729025
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_25
+  - first:
+      213: -5914352017612951693
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_26
+  - first:
+      213: -4876766959778174973
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_27
+  - first:
+      213: 4958467094844949730
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_28
+  - first:
+      213: -8969590094262846628
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_29
+  - first:
+      213: -811243488158721521
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_30
+  - first:
+      213: -3756352936615784118
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_31
+  - first:
+      213: -6893759536568305946
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_32
+  - first:
+      213: -5659731699963331879
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_33
+  - first:
+      213: 2740775048087435873
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_34
+  - first:
+      213: 1638116210806811944
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_35
+  - first:
+      213: 1137141410575594074
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_36
+  - first:
+      213: 2332174884716813316
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_37
+  - first:
+      213: 8564444558312295824
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_38
+  - first:
+      213: 8358509304825344451
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_39
+  - first:
+      213: -7528572465343808075
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_40
+  - first:
+      213: 2039725592667076796
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_41
+  - first:
+      213: -7085102463004343180
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_42
+  - first:
+      213: -7766854044974853515
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_43
+  - first:
+      213: -8446389744173657598
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_44
+  - first:
+      213: -4997229570892549546
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_45
+  - first:
+      213: 3234637872967819604
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_46
+  - first:
+      213: -1063039481911163252
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_47
+  - first:
+      213: -756402125414521108
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_48
+  - first:
+      213: -5852313524601765180
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_49
+  - first:
+      213: -7242386464816617868
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_50
+  - first:
+      213: 7880386429753723283
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_51
+  - first:
+      213: -4730928147999842853
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_52
+  - first:
+      213: 8749084492210817808
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_53
+  - first:
+      213: 2931308020390521296
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_54
+  - first:
+      213: 3988550123041452744
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_55
+  - first:
+      213: 5000028761072865978
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_56
+  - first:
+      213: 166442391635745393
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_57
+  - first:
+      213: 2991036685710679630
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_58
+  - first:
+      213: 2887110348868636394
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_59
+  - first:
+      213: 4868171621795726988
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_60
+  - first:
+      213: -8360925446083243872
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_61
+  - first:
+      213: -1090893010330369061
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_62
+  - first:
+      213: 8339014074654671321
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_63
+  - first:
+      213: -2360110760733101902
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_64
+  - first:
+      213: 7545880326837246834
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_65
+  - first:
+      213: 4459994808445939641
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_66
+  - first:
+      213: -5742096518420370421
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_67
+  - first:
+      213: -7474364415636879519
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_68
+  - first:
+      213: 3460401511819065203
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_69
+  - first:
+      213: -5374175378172420940
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_70
+  - first:
+      213: -5316144203819224860
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_71
+  - first:
+      213: 1580085366981693577
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_72
+  - first:
+      213: -2760664799365113411
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_73
+  - first:
+      213: 8343875381550139348
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_74
+  - first:
+      213: 8497809110314616272
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_75
+  - first:
+      213: -4531061887878234227
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_76
+  - first:
+      213: -8426658782643243874
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_77
+  - first:
+      213: -941015813914876801
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_78
+  - first:
+      213: 7436390885950134857
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_79
+  - first:
+      213: 4846822570956674338
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_80
+  - first:
+      213: 3434502850924997393
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_81
+  - first:
+      213: 2922127889171042953
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_82
+  - first:
+      213: -2891759815964461828
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_83
+  - first:
+      213: -3556583181091212093
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_84
+  - first:
+      213: 3511860091551961375
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_85
+  - first:
+      213: -6398864375767448929
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_86
+  - first:
+      213: -4725128400081211886
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_87
+  - first:
+      213: -3524569107293220508
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_88
+  - first:
+      213: 7447916921640338987
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_89
+  - first:
+      213: -810006077329817160
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_90
+  - first:
+      213: -8769593928329490539
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_91
+  - first:
+      213: -2386893719409894562
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_92
+  - first:
+      213: 3942693597283602923
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_93
+  - first:
+      213: -6459922708222169682
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_94
+  - first:
+      213: -9209682831855969503
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_95
+  - first:
+      213: -7821745515843824603
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_96
+  - first:
+      213: -7459788818522559695
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_97
+  - first:
+      213: -4949723607179125101
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_98
+  - first:
+      213: 3580299996061541347
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_99
+  - first:
+      213: 6728113673970971248
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_100
+  - first:
+      213: 4823615666732757453
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_101
+  - first:
+      213: 1331176787917738211
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_102
+  - first:
+      213: -4874272716713008190
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_103
+  - first:
+      213: 1094101731234559216
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_104
+  - first:
+      213: -9013770168446169999
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_105
+  - first:
+      213: -8735815968206695016
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_106
+  - first:
+      213: -1086614488010422359
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_107
+  - first:
+      213: 5906771032714595612
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_108
+  - first:
+      213: -2109315512676402228
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_109
+  - first:
+      213: 7732601023096498483
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_110
+  - first:
+      213: -4740023746664619023
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_111
+  - first:
+      213: 8062115979889488699
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_112
+  - first:
+      213: -7778295228000871370
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_113
+  - first:
+      213: -7156379021908583691
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_114
+  - first:
+      213: 6215914417734355304
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_115
+  - first:
+      213: 5007102353235847124
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_116
+  - first:
+      213: 2338910823622275930
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_117
+  - first:
+      213: 5833279429590767267
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_118
+  - first:
+      213: 3777967140017379412
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_119
+  - first:
+      213: -3983061405968341910
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_120
+  - first:
+      213: -6957146438097208147
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_121
+  - first:
+      213: -7868702114471092368
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_122
+  - first:
+      213: 8760182694605688463
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_123
+  - first:
+      213: -3982338812295785567
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_124
+  - first:
+      213: 4261720174638952202
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_125
+  - first:
+      213: 1133172062872398164
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_126
+  - first:
+      213: -3016533699034617812
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_127
+  - first:
+      213: -1765287371718690225
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_128
+  - first:
+      213: 1342193188837225081
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_129
+  - first:
+      213: -7113072746771158013
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_130
+  - first:
+      213: -8679532778396012255
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_131
+  - first:
+      213: -6428698349465761971
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_132
+  - first:
+      213: -1231045526069379827
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_133
+  - first:
+      213: -632704554341975948
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_134
+  - first:
+      213: 1808227475754311566
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_135
+  - first:
+      213: 2370602380864271971
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_136
+  - first:
+      213: -3297730969670535036
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_137
+  - first:
+      213: -227756679270724992
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_138
+  - first:
+      213: -6677811786854002154
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_139
+  - first:
+      213: 4812646015734892811
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_140
+  - first:
+      213: 3640250855471054809
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_141
+  - first:
+      213: 6311978527201702163
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_142
+  - first:
+      213: -1965793374448438427
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_143
+  - first:
+      213: 5876025897174626029
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_144
+  - first:
+      213: -3046640689232767496
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_145
+  - first:
+      213: -3036892563669071233
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_146
+  - first:
+      213: -8253742186112721272
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_147
+  - first:
+      213: 3316003688371978471
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_148
+  - first:
+      213: 8529238693674599155
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_149
+  - first:
+      213: -1956221450166792067
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_150
+  - first:
+      213: -4672091051012662128
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_151
+  - first:
+      213: 6582171925047857251
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_152
+  - first:
+      213: -6048269594382276772
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_153
+  - first:
+      213: -1139935110157395091
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_154
+  - first:
+      213: -5969406210412336139
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_155
+  - first:
+      213: -3828312314712742062
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_156
+  - first:
+      213: 5111166467300495024
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_157
+  - first:
+      213: 6985711546300443329
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_158
+  - first:
+      213: 3082000485583700637
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_159
+  - first:
+      213: -443140254289998322
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_160
+  - first:
+      213: -2564778325621337815
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_161
+  - first:
+      213: -5908519986214844613
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_162
+  - first:
+      213: 7778467452222722964
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_163
+  - first:
+      213: 8467156706235637074
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_164
+  - first:
+      213: 7115373924792732798
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_165
+  - first:
+      213: 7310418516926798989
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_166
+  - first:
+      213: -907801167798629855
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_167
+  - first:
+      213: 5240260115311022963
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_168
+  - first:
+      213: -9100819003548683113
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_169
+  - first:
+      213: 6083170536397936090
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_170
+  - first:
+      213: 712733098385873612
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_171
+  - first:
+      213: 7773363611681683976
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_172
+  - first:
+      213: -9114681640901838925
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_173
+  - first:
+      213: -7867111659194800049
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_174
+  - first:
+      213: -3889610094413607494
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_175
+  - first:
+      213: -5726936978021850483
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_176
+  - first:
+      213: 9076615635701107821
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_177
+  - first:
+      213: -9221370316162619630
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_178
+  - first:
+      213: 7479067306013180489
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_179
+  - first:
+      213: -3266009263709110876
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_180
+  - first:
+      213: -7282111666183457909
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_181
+  - first:
+      213: -8734375157162794874
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_182
+  - first:
+      213: 6392526215457415032
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_183
+  - first:
+      213: -2862797030115938482
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_184
+  - first:
+      213: -8800328788187582171
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_185
+  - first:
+      213: -7393175212572879991
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_186
+  - first:
+      213: -4695588048119644759
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_187
+  - first:
+      213: -1331212944519379829
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_188
+  - first:
+      213: 8079400338980011912
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_189
+  - first:
+      213: 2293954959016347781
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_190
+  - first:
+      213: -1513938829309035224
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_191
+  - first:
+      213: -1101497093542445182
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_192
+  - first:
+      213: -7486552249183132205
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_193
+  - first:
+      213: 8799125173944751826
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_194
+  - first:
+      213: -7647371674675692196
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_195
+  - first:
+      213: 941592243940199757
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_196
+  - first:
+      213: -1329991004256363310
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_197
+  - first:
+      213: 8660121572616928183
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_198
+  - first:
+      213: 1387311689074636213
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_199
+  - first:
+      213: -5752140130167311436
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_200
+  - first:
+      213: -7328816325519303189
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_201
+  - first:
+      213: 7498115782030183238
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_202
+  - first:
+      213: 3484229479588468299
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_203
+  - first:
+      213: -4463481258411042020
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_204
+  - first:
+      213: 6215201291556007917
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_205
+  - first:
+      213: -4731516706632721352
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_206
+  - first:
+      213: -7196957196983043003
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_207
+  - first:
+      213: -659656558974590663
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_208
+  - first:
+      213: -7916543000201242812
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_209
+  - first:
+      213: -3846742848346066728
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_210
+  - first:
+      213: -871470003547428677
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_211
+  - first:
+      213: 8319240187355807127
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_212
+  - first:
+      213: 2500052874688560468
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_213
+  - first:
+      213: -3807997367445059950
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_214
+  - first:
+      213: 5572240522927452606
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_215
+  - first:
+      213: -5365901978028318067
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_216
+  - first:
+      213: -4361370501895076203
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_217
+  - first:
+      213: -7407388632697875389
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_218
+  - first:
+      213: 6243135183604453165
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_219
+  - first:
+      213: -4480512369913850431
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_220
+  - first:
+      213: 3089482668743995631
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_221
+  - first:
+      213: 3283629809414208945
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_222
+  - first:
+      213: -1030149783744153694
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_223
+  - first:
+      213: 4554745004199932934
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_224
+  - first:
+      213: 9206389597620409002
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_225
+  - first:
+      213: 375153849424424124
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_226
+  - first:
+      213: -7991728748507463902
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_227
+  - first:
+      213: -5539231749599664999
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_228
+  - first:
+      213: -3432953512938764212
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_229
+  - first:
+      213: -1433233663775978277
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_230
+  - first:
+      213: 3553043007237999541
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_231
+  - first:
+      213: 955757419210478666
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_232
+  - first:
+      213: 2474906120903887566
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_233
+  - first:
+      213: 8807817194871842182
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_234
+  - first:
+      213: 2518662211978587160
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_235
+  - first:
+      213: 4794691073539048598
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_236
+  - first:
+      213: -5156922329874393454
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_237
+  - first:
+      213: 7829488639498086080
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_238
+  - first:
+      213: -4470277303520885844
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_239
+  - first:
+      213: 8114288543148224667
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_240
+  - first:
+      213: 5340832072507762676
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_241
+  - first:
+      213: -5208381761290897194
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_242
+  - first:
+      213: 4163218482023078271
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_243
+  - first:
+      213: 8037866643766657169
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_244
+  - first:
+      213: -3783205050456382627
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_245
+  - first:
+      213: 6807206623610929365
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_246
+  - first:
+      213: 5191512805500854977
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_247
+  - first:
+      213: -6761847217987875472
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_248
+  - first:
+      213: 9161760474540901451
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_249
+  - first:
+      213: -4209621107812809034
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_250
+  - first:
+      213: 5135124698812064521
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_251
+  - first:
+      213: 4658706685966132952
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_252
+  - first:
+      213: -7830489903629045205
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_253
+  - first:
+      213: -3523983380206823127
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_254
+  - first:
+      213: 3752619082559846991
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_255
+  - first:
+      213: 8085442024879440267
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_256
+  - first:
+      213: -5936007751106796109
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_257
+  - first:
+      213: 842633724289972965
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_258
+  - first:
+      213: -9197505330125350574
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_259
+  - first:
+      213: -7992932028329954054
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_260
+  - first:
+      213: -2021721367707160227
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_261
+  - first:
+      213: -1094292080279280316
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_262
+  - first:
+      213: -6700772317314638084
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_263
+  - first:
+      213: -494703030630599662
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_264
+  - first:
+      213: 4612354610421226970
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_265
+  - first:
+      213: -788386716319489405
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_266
+  - first:
+      213: 6930545064971388228
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_267
+  - first:
+      213: -5443890160627432594
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_268
+  - first:
+      213: -2424649926762185848
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_269
+  - first:
+      213: -896989981956697783
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_270
+  - first:
+      213: -373422947562132723
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_271
+  - first:
+      213: 4084367282049648622
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_272
+  - first:
+      213: 7922237862586341552
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_273
+  - first:
+      213: 1953154423760087464
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_274
+  - first:
+      213: 8724368972169929017
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_275
+  - first:
+      213: 7953732816394320944
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_276
+  - first:
+      213: 5401008790867402794
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_277
+  - first:
+      213: -8874121509838598749
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_278
+  - first:
+      213: -9101456373872398555
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_279
+  - first:
+      213: 8243382303639800044
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_280
+  - first:
+      213: 5360961289654772519
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_281
+  - first:
+      213: -6219064177320266984
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_282
+  - first:
+      213: 9035123776806565462
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_283
+  - first:
+      213: 923143808959159197
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_284
+  - first:
+      213: -2913149031351667912
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_285
+  - first:
+      213: 7498414465226268847
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_286
+  - first:
+      213: -6693518301630056664
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_287
+  - first:
+      213: 9089691006895744108
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_288
+  - first:
+      213: 6411376229184425625
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_289
+  - first:
+      213: 307507838802527131
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_290
+  - first:
+      213: -7374918925913096173
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_291
+  - first:
+      213: -8001902450456652127
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_292
+  - first:
+      213: -7310990506297990779
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_293
+  - first:
+      213: -8662883467133693907
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_294
+  - first:
+      213: 5902133290805256686
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_295
+  - first:
+      213: -5230344390019363527
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_296
+  - first:
+      213: 4818204119229519113
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_297
+  - first:
+      213: 2182270671185743328
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_298
+  - first:
+      213: -6870232202213642713
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_299
+  - first:
+      213: -6954750328074780917
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_300
+  - first:
+      213: 661833712394282846
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_301
+  - first:
+      213: -3006960483055917036
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_302
+  - first:
+      213: -55573458512491542
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_303
+  - first:
+      213: -9101676640515601990
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_304
+  - first:
+      213: 6280965315858642704
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_305
+  - first:
+      213: 8501960270217716635
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_306
+  - first:
+      213: -7300430942707569344
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_307
+  - first:
+      213: 257089843117320550
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_308
+  - first:
+      213: -8837401960082993440
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_309
+  - first:
+      213: 1964840406685506118
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_310
+  - first:
+      213: -2457177715851158440
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_311
+  - first:
+      213: -7314557352810932095
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_312
+  - first:
+      213: 5372013633624415993
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_313
+  - first:
+      213: -6565888863332831004
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_314
+  - first:
+      213: 629325756621558033
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_315
+  - first:
+      213: -8964776125254504869
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_316
+  - first:
+      213: 7421294183663501561
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_317
+  - first:
+      213: -5273717679302794290
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_318
+  - first:
+      213: 1984639767609433854
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_319
+  - first:
+      213: 4459235650407052499
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_320
+  - first:
+      213: 1757640940017620569
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_321
+  - first:
+      213: -6929184648242306541
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_322
+  - first:
+      213: -8389870720956374213
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_323
+  - first:
+      213: -3368249245041798408
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_324
+  - first:
+      213: -1833472749538008984
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_325
+  - first:
+      213: -6802923217243027074
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_326
+  - first:
+      213: -6435985961012270093
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_327
+  - first:
+      213: -3498680887322750058
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_328
+  - first:
+      213: -5279205132051349319
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_329
+  - first:
+      213: -7940816301341231968
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_330
+  - first:
+      213: -4654408227822511873
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_331
+  - first:
+      213: -16947459560467312
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_332
+  - first:
+      213: -3942887021973281700
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_333
+  - first:
+      213: -6880020247814663885
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_334
+  - first:
+      213: 4663140960651248253
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_335
+  - first:
+      213: -5705831076099097542
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_336
+  - first:
+      213: -6945818484804383277
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_337
+  - first:
+      213: 6617496132498780553
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_338
+  - first:
+      213: -1592511485610938002
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_339
+  - first:
+      213: 2499738974484093583
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_340
+  - first:
+      213: -2629945843425138697
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_341
+  - first:
+      213: -4899718333970645459
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_342
+  - first:
+      213: -4753865594934373859
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_343
+  - first:
+      213: -954753731973983152
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_344
+  - first:
+      213: -669638309880286837
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_345
+  - first:
+      213: -1803355342262185759
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_346
+  - first:
+      213: 7978383398932863297
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_347
+  - first:
+      213: 8812560193376304254
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_348
+  - first:
+      213: -347274175831346007
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_349
+  - first:
+      213: -2221278876387791126
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_350
+  - first:
+      213: 6839308105745662059
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_351
+  - first:
+      213: 1681032253200517668
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_352
+  - first:
+      213: -6968158710160351950
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_353
+  - first:
+      213: -1753301964487443879
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_354
+  - first:
+      213: -8353216578775103561
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_355
+  - first:
+      213: -5842542901280759699
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_356
+  - first:
+      213: 6927819793393633448
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_357
+  - first:
+      213: 7634738026938304239
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_358
+  - first:
+      213: -8871398729016150808
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_359
+  - first:
+      213: -7665944696098811637
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_360
+  - first:
+      213: -2023179386268794503
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_361
+  - first:
+      213: -870258657181770606
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_362
+  - first:
+      213: 4924485853380170140
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_363
+  - first:
+      213: 8577943312006138458
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_364
+  - first:
+      213: -556867013636523802
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_365
+  - first:
+      213: 1975273167242218840
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_366
+  - first:
+      213: 7948574247614325397
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_367
+  - first:
+      213: 1108482573906380994
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_368
+  - first:
+      213: 4836762401754074682
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_369
+  - first:
+      213: -1856564502533403202
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_370
+  - first:
+      213: 1606014809430839637
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_371
+  - first:
+      213: 2625537440650750360
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_372
+  - first:
+      213: -9062376763512073668
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_373
+  - first:
+      213: 6409732949965492619
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_374
+  - first:
+      213: 128835863414800676
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_375
+  - first:
+      213: -2506458690483224807
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_376
+  - first:
+      213: 730918727039658813
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_377
+  - first:
+      213: -9043735977734848863
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_378
+  - first:
+      213: 325469591127160820
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_379
+  - first:
+      213: 6631257852908636699
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_380
+  - first:
+      213: 4347993746511621219
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_381
+  - first:
+      213: -3229650470751851450
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_382
+  - first:
+      213: 7797290832654139297
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_383
+  - first:
+      213: -8593341658598245210
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_384
+  - first:
+      213: 5779788073654104449
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_385
+  - first:
+      213: 9118738517405463895
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_386
+  - first:
+      213: 2993197005584313545
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_387
+  - first:
+      213: -378081361065295778
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_388
+  - first:
+      213: 761172288574494504
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_389
+  - first:
+      213: 8719837426582939586
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_390
+  - first:
+      213: 1740650822293476714
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_391
+  - first:
+      213: -7986426419810916393
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_392
+  - first:
+      213: 4979036905703375555
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_393
+  - first:
+      213: 1010469979801972826
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_394
+  - first:
+      213: -7514977696228606291
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_395
+  - first:
+      213: 5718303777119100686
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_396
+  - first:
+      213: 5829841480726564025
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_397
+  - first:
+      213: -7583058327776114961
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_398
+  - first:
+      213: -922804836734400380
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_399
+  - first:
+      213: 6605279827358493770
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_400
+  - first:
+      213: -3883810986483658540
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_401
+  - first:
+      213: 8912075491219753885
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_402
+  - first:
+      213: -624437915880870653
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_403
+  - first:
+      213: 5515546812485124646
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_404
+  - first:
+      213: -3666351730936982792
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_405
+  - first:
+      213: 6849555881071939371
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_406
+  - first:
+      213: -2420265119755218415
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_407
+  - first:
+      213: -7226448942450483351
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_408
+  - first:
+      213: 4405728115927014203
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_409
+  - first:
+      213: 6750116521854678949
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_410
+  - first:
+      213: -7936363042250850922
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_411
+  - first:
+      213: 2326808796552312495
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_412
+  - first:
+      213: -8600246609654235783
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_413
+  - first:
+      213: -7633934166562923128
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_414
+  - first:
+      213: -4015987810021640001
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_415
+  - first:
+      213: 5645245236911709447
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_416
+  - first:
+      213: 9094335128172688253
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_417
+  - first:
+      213: 1813629138328915545
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_418
+  - first:
+      213: 9066295943831141270
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_419
+  - first:
+      213: -338270662952432022
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_420
+  - first:
+      213: 8489611116663026631
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_421
+  - first:
+      213: -1626898879723787371
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_422
+  - first:
+      213: -8986893898512032204
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_423
+  - first:
+      213: 8227672437904034366
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_424
+  - first:
+      213: 7186144946143360461
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_425
+  - first:
+      213: -2892745259152671288
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_426
+  - first:
+      213: 1290905589627965764
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_427
+  - first:
+      213: 134055921859002945
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_428
+  - first:
+      213: -8967507138233074716
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_429
+  - first:
+      213: 6371026142853692208
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_430
+  - first:
+      213: 3321944431923252035
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_431
+  - first:
+      213: 1426405420959962616
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_432
+  - first:
+      213: -1180313307300066105
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_433
+  - first:
+      213: -6910675049016898729
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_434
+  - first:
+      213: -8309450476345924885
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_435
+  - first:
+      213: 7391605033725938898
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_436
+  - first:
+      213: -2458940421285686782
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_437
+  - first:
+      213: -1886031004692507568
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_438
+  - first:
+      213: 5322343711709418091
+    second: charsets_12_m-f_characters_3rdsheet_by_antifarea_439
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c34ecb5626408b0800000000000000
+      internalID: -5186912681723675508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0714378c7c52d9430800000000000000
+      internalID: 3791228001307541872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5307ce38f066f40800000000000000
+      internalID: 5721277435902703030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864fa09dbc68609c0800000000000000
+      internalID: -3961330612147915672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0848eea63ff38a50800000000000000
+      internalID: 6522337295690385418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5a6c89298231ac0800000000000000
+      internalID: -3885717443397114392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a075969128aab40800000000000000
+      internalID: 5452313344538512011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b73362c4c777b20800000000000000
+      internalID: 3132108732359736109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9300ead8aec9ef150800000000000000
+      internalID: 5908332292369940537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d5db5cb5d57dc30800000000000000
+      internalID: 4384075411009395978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd91f97ddcfb28a20800000000000000
+      internalID: 3063221587372087772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2191177fc689fb9a0800000000000000
+      internalID: -6215081366972720878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d3f38f589501710800000000000000
+      internalID: 1661926694430129493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477bf221536893770800000000000000
+      internalID: 8591045326682437492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669c3cc6478afcaa0800000000000000
+      internalID: -6138502549088253594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318a592e6115a5cd0800000000000000
+      internalID: -2568651478728857581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfc6952234245780800000000000000
+      internalID: -8695285182747979848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_17
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffc368a6624cd490800000000000000
+      internalID: -7720222652540661764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0de8589c8c44f80800000000000000
+      internalID: -8123147060014821163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9097db05780f13400800000000000000
+      internalID: 302287113976379657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8e00457e1a45040800000000000000
+      internalID: 4635507931389946053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab46968426c0e030800000000000000
+      internalID: 3522032768782846889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949159ee70dc40500800000000000000
+      internalID: 361639304047696201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f1ed97a2d2e4470800000000000000
+      internalID: 8380685617039548210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_24
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe1d2f4d3a8226b0800000000000000
+      internalID: -5322539813672509701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ec0adaf09bef760800000000000000
+      internalID: 7493630306979729025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fa091fc200ceda0800000000000000
+      internalID: -5914352017612951693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_27
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3086f0ec94e325cb0800000000000000
+      internalID: -4876766959778174973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_28
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e442ba3d8300d440800000000000000
+      internalID: 4958467094844949730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bb99a055d958380800000000000000
+      internalID: -8969590094262846628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_30
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a53fd7852edb4f0800000000000000
+      internalID: -811243488158721521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41550af7e0cedbc0800000000000000
+      internalID: -3756352936615784118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_32
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e672e7e9327450a0800000000000000
+      internalID: -6893759536568305946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dafaa361089471b0800000000000000
+      internalID: -5659731699963331879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_34
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a718e8260390620800000000000000
+      internalID: 2740775048087435873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_35
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82de2fdb302cbb610800000000000000
+      internalID: 1638116210806811944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52bebc8610f7cf00800000000000000
+      internalID: 1137141410575594074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c12a583bc8d5020800000000000000
+      internalID: 2332174884716813316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d4bbc03f40bd670800000000000000
+      internalID: 8564444558312295824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c179ed6de36ff370800000000000000
+      internalID: 8358509304825344451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd35691b33258790800000000000000
+      internalID: -7528572465343808075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8b13e9e9f8e4c10800000000000000
+      internalID: 2039725592667076796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_42
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474816f29d8acad90800000000000000
+      internalID: -7085102463004343180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_43
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572d7fa8567963490800000000000000
+      internalID: -7766854044974853515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_44
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202d600574568ca80800000000000000
+      internalID: -8446389744173657598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6523fd58e2646aab0800000000000000
+      internalID: -4997229570892549546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_46
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451a543f10eb3ec20800000000000000
+      internalID: 3234637872967819604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86487239335f31f0800000000000000
+      internalID: -1063039481911163252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_48
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce621574648b085f0800000000000000
+      internalID: -756402125414521108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_49
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2c5e33bd768cea0800000000000000
+      internalID: -5852313524601765180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_50
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476228ec1efdd7b90800000000000000
+      internalID: -7242386464816617868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_51
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399874ea4b1cc5d60800000000000000
+      internalID: 7880386429753723283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_52
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd92983aed585eb0800000000000000
+      internalID: -4730928147999842853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_53
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bca14bdfdfa6970800000000000000
+      internalID: 8749084492210817808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_54
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d961a22d191ea820800000000000000
+      internalID: 2931308020390521296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_55
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2f9b4643d2a5730800000000000000
+      internalID: 3988550123041452744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_56
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab21c7abaaba36540800000000000000
+      internalID: 5000028761072865978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ad30d29725f4200800000000000000
+      internalID: 166442391635745393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_58
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e52f9b40c428920800000000000000
+      internalID: 2991036685710679630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee4ba3d093111820800000000000000
+      internalID: 2887110348868636394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_60
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8685ce1c483f8340800000000000000
+      internalID: 4868171621795726988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a01fa8da9608fb80800000000000000
+      internalID: -8360925446083243872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd34d4f369e5cd0f0800000000000000
+      internalID: -1090893010330369061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_63
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d146c07e112ab370800000000000000
+      internalID: 8339014074654671321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_64
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b03deb74c33f3fd0800000000000000
+      internalID: -2360110760733101902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_65
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b1ebe6d2a58b860800000000000000
+      internalID: 7545880326837246834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_66
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfa181f5a515ed30800000000000000
+      internalID: 4459994808445939641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ceb81b3a9ff40b0800000000000000
+      internalID: -5742096518420370421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_68
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167c4243a29b54890800000000000000
+      internalID: -7474364415636879519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_69
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377333c47d0d50030800000000000000
+      internalID: 3460401511819065203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_70
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcd16797f71b65b0800000000000000
+      internalID: -5374175378172420940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_71
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e07a9443034936b0800000000000000
+      internalID: -5316144203819224860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_72
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 76
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9809cb505479de510800000000000000
+      internalID: 1580085366981693577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 76
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9dae9ddf520b9d0800000000000000
+      internalID: -2760664799365113411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_74
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 76
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d74c67a3766bc370800000000000000
+      internalID: 8343875381550139348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_75
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 76
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5816dcc584ee570800000000000000
+      internalID: 8497809110314616272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_76
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 76
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ff4b5383f6e11c0800000000000000
+      internalID: -4531061887878234227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_77
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 76
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94bf19cb7e7e0b80800000000000000
+      internalID: -8426658782643243874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_78
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 76
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74249b5a17d0f2f0800000000000000
+      internalID: -941015813914876801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_79
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 76
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a92007c1e533760800000000000000
+      internalID: 7436390885950134857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 76
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225d73fd27f534340800000000000000
+      internalID: 4846822570956674338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_81
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 76
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b6379652ec9af20800000000000000
+      internalID: 3434502850924997393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_82
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 76
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9825d4645db7d8820800000000000000
+      internalID: 2922127889171042953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_83
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 76
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf470b1c4c76ed7d0800000000000000
+      internalID: -2891759815964461828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_84
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 76
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4fdecb07a74aec0800000000000000
+      internalID: -3556583181091212093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_85
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 76
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1153d98522acb030800000000000000
+      internalID: 3511860091551961375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_86
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 76
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92ca7cb0caa237a0800000000000000
+      internalID: -6398864375767448929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_87
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 76
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21eac0341c8fc6eb0800000000000000
+      internalID: -4725128400081211886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_88
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 76
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461d8752217361fc0800000000000000
+      internalID: -3524569107293220508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_89
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 76
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b264efebaf05c5760800000000000000
+      internalID: 7447916921640338987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_90
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b149d6a3c742c4f0800000000000000
+      internalID: -810006077329817160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_91
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f8f7519c42c4680800000000000000
+      internalID: -8769593928329490539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_92
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b56f9fecc00eed0800000000000000
+      internalID: -2386893719409894562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_93
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1db4cffe247b630800000000000000
+      internalID: 3942693597283602923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_94
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead20f3e58eb956a0800000000000000
+      internalID: -6459922708222169682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b16396242a03080800000000000000
+      internalID: -9209682831855969503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_96
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524df9c05e3937390800000000000000
+      internalID: -7821745515843824603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_97
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b288cd791897890800000000000000
+      internalID: -7459788818522559695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_98
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e19b1aa9c0f4bb0800000000000000
+      internalID: -4949723607179125101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_99
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3a49e80e7cfa130800000000000000
+      internalID: 3580299996061541347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_100
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072fc794dbf0f5d50800000000000000
+      internalID: 6728113673970971248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_101
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc17d9c64ece0f240800000000000000
+      internalID: 4823615666732757453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_102
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e015195c3a497210800000000000000
+      internalID: 1331176787917738211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_103
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c361f50aca1b5cb0800000000000000
+      internalID: -4874272716713008190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_104
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4306e4ab70f2f00800000000000000
+      internalID: 1094101731234559216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_105
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cc0cee9c7a8e280800000000000000
+      internalID: -9013770168446169999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_106
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895dad749a524c680800000000000000
+      internalID: -8735815968206695016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_107
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7885a51e19be0f0800000000000000
+      internalID: -1086614488010422359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_108
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d458675f019f150800000000000000
+      internalID: 5906771032714595612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_109
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbb3b387b43ab2e0800000000000000
+      internalID: -2109315512676402228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_110
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3392d7359a7bf4b60800000000000000
+      internalID: 7732601023096498483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_111
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3a321248d083eb0800000000000000
+      internalID: -4740023746664619023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_112
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33305fc4c362ef60800000000000000
+      internalID: 8062115979889488699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_113
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c54e883b1fd0490800000000000000
+      internalID: -7778295228000871370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_114
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fad419123f6fac90800000000000000
+      internalID: -7156379021908583691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_115
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8690947ca3d534650800000000000000
+      internalID: 6215914417734355304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_116
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d725aebf0dcc7540800000000000000
+      internalID: 5007102353235847124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_117
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a537253800b757020800000000000000
+      internalID: 2338910823622275930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_118
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6d9543cb8f3f050800000000000000
+      internalID: 5833279429590767267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_119
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45895d9e8190e6430800000000000000
+      internalID: 3777967140017379412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_120
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6460b221c259b8c0800000000000000
+      internalID: -3983061405968341910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_121
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac77d2dc20437f90800000000000000
+      internalID: -6957146438097208147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_122
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fd597fd11ccc290800000000000000
+      internalID: -7868702114471092368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_123
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e0f7f4fbb629970800000000000000
+      internalID: 8760182694605688463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_124
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3dbd513f3ebb8c0800000000000000
+      internalID: -3982338812295785567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_125
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 40
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f68755beba42b30800000000000000
+      internalID: 4261720174638952202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_126
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 22
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459e7e4ccf5d9bf00800000000000000
+      internalID: 1133172062872398164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_127
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 22
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28eb00459e1326d0800000000000000
+      internalID: -3016533699034617812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_128
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 22
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a79320d707087e0800000000000000
+      internalID: -1765287371718690225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_129
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 22
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9727790189d60a210800000000000000
+      internalID: 1342193188837225081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_130
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 22
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c6133060a494d90800000000000000
+      internalID: -7113072746771158013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_131
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 22
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121b8579cea1c8780800000000000000
+      internalID: -8679532778396012255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_132
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 22
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4704ff69eca8c6a0800000000000000
+      internalID: -6428698349465761971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_133
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 22
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dfc4ccd927aeee0800000000000000
+      internalID: -1231045526069379827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_134
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 22
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478bcae5f8e2837f0800000000000000
+      internalID: -632704554341975948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_135
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 22
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fdf6d0f4d181910800000000000000
+      internalID: 1808227475754311566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_136
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 22
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3663c1f2e4216e020800000000000000
+      internalID: 2370602380864271971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_137
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 22
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488bbfbb72b1c32d0800000000000000
+      internalID: -3297730969670535036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_138
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 22
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a88d4c188d6dcf0800000000000000
+      internalID: -227756679270724992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_139
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 22
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61296a77f85a353a0800000000000000
+      internalID: -6677811786854002154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_140
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 22
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09c3958d04f9c240800000000000000
+      internalID: 4812646015734892811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_141
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 22
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dff9adbdd4c48230800000000000000
+      internalID: 3640250855471054809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_142
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 22
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31130c73707a89750800000000000000
+      internalID: 6311978527201702163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charsets_12_m-f_characters_3rdsheet_by_antifarea_143
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 22
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5633f26575918b4e0800000000000000
+      internalID: -1965793374448438427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
