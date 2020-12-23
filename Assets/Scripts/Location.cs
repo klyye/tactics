@@ -5,11 +5,11 @@ using UnityEngine;
 public struct Location
 {
     public Unit unit;
-    public Feature feature;
+    public Terrain terrain;
 
-    public Location(Unit u, Feature f)
+    public Location(Unit u, Terrain f)
     {
         unit = u;
-        feature = f;
+        terrain = f;
     }
 }
