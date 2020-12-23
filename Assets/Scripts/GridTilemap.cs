@@ -20,7 +20,8 @@ public class GridTilemap : MonoBehaviour
         {
             for (var c = 0; c < grid.width; c++)
             {
-                switch (grid.GetLocation(new Vector2Int(c, r)).land)
+                var land = grid.GetLand(new Vector2Int(c, r));
+                switch (land)
                 {
                     case Land.DIRT:
                         _tilemap.SetTile(new Vector3Int(c, r, 0), dirt);

@@ -68,7 +68,7 @@ public class AStarSolver
 
     private void Relax(Vector2Int from, Vector2Int to)
     {
-        var weight = (int) _world.GetLocation(to).land;
+        var weight = (int) _world.GetLand(to);
         if (!(DistTo(from) + weight < DistTo(to))) return;
         _edgeTo[to] = from;
         _distTo[to] = DistTo(from) + weight;

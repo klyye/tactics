@@ -307,7 +307,7 @@ GameObject:
   - component: {fileID: 1752594345}
   - component: {fileID: 1752594347}
   m_Layer: 0
-  m_Name: Tilemap
+  m_Name: GridTilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -425,6 +425,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0199d0d502d237f448dcdd7e84430a2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  water: {fileID: 11400000, guid: 13c2ef079e1697a449adaa5676307789, type: 2}
-  forest: {fileID: 11400000, guid: ca09596ac2e02f049854000ffa630ddd, type: 2}
-  dirt: {fileID: 11400000, guid: db065fdecf5429b458edc0e177bb5508, type: 2}
+  water: {fileID: 11400000, guid: 9dee42abd0e610143abfd066d0e06315, type: 2}
+  forest: {fileID: 11400000, guid: 2416f6b85aa145a4eb61ffe1b2f3f74f, type: 2}
+  dirt: {fileID: 11400000, guid: 73d9f36148cad614dbe3e4400258e4a4, type: 2}

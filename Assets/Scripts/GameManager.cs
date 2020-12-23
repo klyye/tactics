@@ -32,11 +32,11 @@ public class GameManager : MonoBehaviour
             Debug.Log(c);
         }
 
-        _tilemap.UpdateGrid(gameGrid);
     }
 
     // Update is called once per frame
     void Update()
     {
+        _tilemap.UpdateGrid(gameGrid);
     }
 }
