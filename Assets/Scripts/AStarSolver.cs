@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+///     Finds the shortest path between two cells on a given LevelGrid.
+/// </summary>
 public class AStarSolver
 {
     private readonly Func<Vector2Int, Vector2Int, float> _heuristic;
@@ -15,15 +18,15 @@ public class AStarSolver
 
     private MinPriorityQueue<Vector2Int> _pq;
 
-    public AStarSolver(LevelGrid world, Func<Vector2Int, Vector2Int, float> heuristic)
+    public AStarSolver(LevelGrid world)
     {
         _world = world;
-        _heuristic = heuristic;
+        _heuristic = Vector2Int.Distance;
         _solution = new Dictionary<Tuple<Vector2Int, Vector2Int>, IList<Vector2Int>>();
     }
 
     // returns null on failure
-    public IList<Vector2Int> ShortestPath(Vector2Int start, Vector2Int end)
+    public IEnumerable<Vector2Int> ShortestPath(Vector2Int start, Vector2Int end)
     {
         var pair = new Tuple<Vector2Int, Vector2Int>(start, end);
         if (_solution.ContainsKey(pair)) return _solution[pair];

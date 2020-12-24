@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 
+/// <summary>
+///     Contains data about the current shape and land layout of the level.
+/// </summary>
 public class LevelGrid
 {
     private readonly Land[,] _grid;
