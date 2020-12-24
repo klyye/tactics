@@ -1,39 +1,72 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using UnityEngine.Tilemaps;
+using Rand = UnityEngine.Random;
 
 /// <summary>
-///     Contains data about the current shape and land layout of the level.
+///     Brings LevelGrids to life using Unity tilemaps.
 /// </summary>
-public class LevelGrid
+[RequireComponent(typeof(Tilemap))]
+public class LevelGrid : MonoBehaviour
 {
-    private readonly Land[,] _grid;
+    public int width;
+    public int height;
 
-    public LevelGrid(int w, int h)
+    // TODO this is bad coding. think about a better way
+    [SerializeField] private Tile water;
+    [SerializeField] private Tile forest;
+    [SerializeField] private Tile dirt;
+    private Tilemap _tilemap;
+    private Land[,] _grid;
+    public Pathfinder pathfinder;
+
+    // Start is called before the first frame update
+    private void Awake()
     {
-        _grid = new Land[w, h];
-
-        // grid starts out as all ground with no units
-        for (var r = 0; r < _grid.GetLength(1); r++)
-        for (var c = 0; c < _grid.GetLength(0); c++)
-            _grid[c, r] = Land.DIRT;
+        _tilemap = GetComponent<Tilemap>();
+        _grid = new Land[width, height];
+        for (var x = 0; x < width; x++)
+        for (var y = 0; y < height; y++)
+            _grid[x, y] = Rand.value > 0.75 ? Land.WATER : default;
+        UpdateTilemap();
+        pathfinder = new Pathfinder(this);
     }
 
-    public int width => _grid.GetLength(0);
-
-    public int height => _grid.GetLength(1);
-
-    public Land GetLand(Vector2Int c)
+    public void UpdateTilemap()
     {
-        return _grid[c.x, c.y];
+        for (var x = 0; x < width; x++)
+        for (var y = 0; y < height; y++)
+        {
+            var land = _grid[x, y];
+            switch (land)
+            {
+                case Land.DIRT:
+                    _tilemap.SetTile(new Vector3Int(x, y, 0), dirt);
+                    break;
+                case Land.WATER:
+                    _tilemap.SetTile(new Vector3Int(x, y, 0), water);
+                    break;
+                case Land.FOREST:
+                    _tilemap.SetTile(new Vector3Int(x, y, 0), forest);
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+        }
     }
 
-    public void SetTerrain(Vector2Int c, Land t)
+    public Vector3 CoordToPosition(Vector2Int cellPosition)
     {
-        _grid[c.x, c.y] = t;
+        return _tilemap.GetCellCenterWorld(cellPosition.ToVector3Int());
     }
 
-
-    public bool WithinBounds(Vector2Int c)
+    public bool WithinBounds(Vector2Int coord)
     {
-        return c.x >= 0 && c.y >= 0 && c.x < width && c.y < height;
+        return coord.x >= 0 && coord.y >= 0 && coord.x < width && coord.y < height;
+    }
+
+    public Land LandAt(Vector2Int coord)
+    {
+        return _grid[coord.x, coord.y];
     }
 }

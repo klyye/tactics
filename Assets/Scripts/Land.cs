@@ -10,5 +10,14 @@ using UnityEngine;
 public enum Land 
 {
     // integral value of a land is the cost of moving there
-    WATER = 9999, FOREST = 5, DIRT = 1
+    // even values are walkable. odd values are not. is this janky?
+    WATER = 9999, FOREST = 4, DIRT = 0
+}
+
+static class LandMethods
+{
+    public static bool Walkable(this Land l)
+    {
+        return (int) l % 2 == 0;
+    }
 }

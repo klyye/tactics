@@ -5,7 +5,7 @@ using UnityEngine;
 /// <summary>
 ///     Finds the shortest path between two cells on a given LevelGrid.
 /// </summary>
-public class AStarSolver
+public class Pathfinder
 {
     private readonly Func<Vector2Int, Vector2Int, float> _heuristic;
 
@@ -18,7 +18,7 @@ public class AStarSolver
 
     private MinPriorityQueue<Vector2Int> _pq;
 
-    public AStarSolver(LevelGrid world)
+    public Pathfinder(LevelGrid world)
     {
         _world = world;
         _heuristic = Vector2Int.Distance;
@@ -50,7 +50,7 @@ public class AStarSolver
         {
             var p = _pq.RemoveMin();
             foreach (var adj in p.Adjacent())
-                if (_world.WithinBounds(adj))
+                if (_world.WithinBounds(adj) && _world.LandAt(adj).Walkable())
                     Relax(p, adj);
         }
 
@@ -71,7 +71,7 @@ public class AStarSolver
 
     private void Relax(Vector2Int from, Vector2Int to)
     {
-        var weight = (int) _world.GetLand(to);
+        var weight = 1 + (int) _world.LandAt(to);
         if (!(DistTo(from) + weight < DistTo(to))) return;
         _edgeTo[to] = from;
         _distTo[to] = DistTo(from) + weight;
