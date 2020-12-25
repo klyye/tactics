@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abea8c96cb3c84e4db5fe69ef3321edc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tempunit: {fileID: 0}
 --- !u!4 &47521364
 Transform:
   m_ObjectHideFlags: 0
@@ -165,36 +166,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &343347268
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 343347270}
-  m_Layer: 0
-  m_Name: Grid Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &343347270
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 343347268}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -420,8 +391,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waitTime: 0.5
   speed: 7
-  start: {x: 0, y: 0}
-  dest: {x: 17, y: 9}
 --- !u!1 &1752594343
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,6 +524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   width: 18
   height: 10
-  water: {fileID: 11400000, guid: 9dee42abd0e610143abfd066d0e06315, type: 2}
-  forest: {fileID: 11400000, guid: 2416f6b85aa145a4eb61ffe1b2f3f74f, type: 2}
-  dirt: {fileID: 11400000, guid: 73d9f36148cad614dbe3e4400258e4a4, type: 2}
+  _terrains:
+  - {fileID: 11400000, guid: c124df269ab8c99408735fb3e85fbe3b, type: 2}
+  - {fileID: 11400000, guid: 1c189e9ae21377f488a20e97494814b7, type: 2}
+  - {fileID: 11400000, guid: 07736daeed5da88409896c4132eedfbc, type: 2}

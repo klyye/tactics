@@ -7,19 +7,19 @@ using UnityEngine;
 /// </summary>
 public class Unit : MonoBehaviour
 {
-    public float waitTime;
-    public float speed;
-    public Vector2Int start, dest;
+    [SerializeField] private float waitTime;
+    [SerializeField] private float speed;
     private LevelGrid _levelGrid;
-    private Pathfinder _pathfinder;
 
     private void Start()
     {
-        // TODO THIS IS ALL TEMPORARY LMAO
         _levelGrid = GameManager.levelGrid;
-        _pathfinder = _levelGrid.pathfinder;
+    }
+
+    public void Move(Vector2Int start, Vector2Int dest)
+    {
         transform.position = _levelGrid.CoordToPosition(start);
-        var path = _pathfinder.ShortestPath(start, dest);
+        var path = _levelGrid.ShortestPath(start, dest);
         if (path != null)
             StartCoroutine(FollowPath(path));
     }

@@ -50,7 +50,7 @@ public class Pathfinder
         {
             var p = _pq.RemoveMin();
             foreach (var adj in p.Adjacent())
-                if (_world.WithinBounds(adj) && _world.LandAt(adj).Walkable())
+                if (_world.WithinBounds(adj) && _world.LandAt(adj).walkable)
                     Relax(p, adj);
         }
 
@@ -71,7 +71,7 @@ public class Pathfinder
 
     private void Relax(Vector2Int from, Vector2Int to)
     {
-        var weight = 1 + (int) _world.LandAt(to);
+        var weight = _world.LandAt(to).moveCost;
         if (!(DistTo(from) + weight < DistTo(to))) return;
         _edgeTo[to] = from;
         _distTo[to] = DistTo(from) + weight;

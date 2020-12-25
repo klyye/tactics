@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using Rand = UnityEngine.Random;
@@ -12,24 +13,35 @@ public class LevelGrid : MonoBehaviour
     public int width;
     public int height;
 
-    // TODO this is bad coding. think about a better way
-    [SerializeField] private Tile water;
-    [SerializeField] private Tile forest;
-    [SerializeField] private Tile dirt;
+    [SerializeField] private TerrainData[] _terrains;
+    private TerrainData[,] _grid;
+    private Pathfinder _pathfinder;
     private Tilemap _tilemap;
-    private Land[,] _grid;
-    public Pathfinder pathfinder;
 
     // Start is called before the first frame update
     private void Awake()
     {
         _tilemap = GetComponent<Tilemap>();
-        _grid = new Land[width, height];
+        _grid = new TerrainData[width, height];
+        var walkables = _terrains.Where(l => l.walkable).ToArray();
         for (var x = 0; x < width; x++)
         for (var y = 0; y < height; y++)
-            _grid[x, y] = Rand.value > 0.75 ? Land.WATER : default;
+        {
+            var roll = Rand.value;
+            if (roll > 0.75)
+                _grid[x, y] = walkables[Rand.Range(0, walkables.Length)];
+            else
+                _grid[x, y] = _terrains[Rand.Range(0, _terrains.Length)];
+        }
+
+        _grid[width - 1, height - 1] = walkables[Rand.Range(0, walkables.Length)];
         UpdateTilemap();
-        pathfinder = new Pathfinder(this);
+        _pathfinder = new Pathfinder(this);
+    }
+
+    public IEnumerable<Vector2Int> ShortestPath(Vector2Int start, Vector2Int end)
+    {
+        return _pathfinder.ShortestPath(start, end);
     }
 
     public void UpdateTilemap()
@@ -37,21 +49,8 @@ public class LevelGrid : MonoBehaviour
         for (var x = 0; x < width; x++)
         for (var y = 0; y < height; y++)
         {
-            var land = _grid[x, y];
-            switch (land)
-            {
-                case Land.DIRT:
-                    _tilemap.SetTile(new Vector3Int(x, y, 0), dirt);
-                    break;
-                case Land.WATER:
-                    _tilemap.SetTile(new Vector3Int(x, y, 0), water);
-                    break;
-                case Land.FOREST:
-                    _tilemap.SetTile(new Vector3Int(x, y, 0), forest);
-                    break;
-                default:
-                    throw new ArgumentOutOfRangeException();
-            }
+            var land = LandAt(x, y);
+            _tilemap.SetTile(new Vector3Int(x, y, 0), land.tile);
         }
     }
 
@@ -65,8 +64,13 @@ public class LevelGrid : MonoBehaviour
         return coord.x >= 0 && coord.y >= 0 && coord.x < width && coord.y < height;
     }
 
-    public Land LandAt(Vector2Int coord)
+    public TerrainData LandAt(Vector2Int coord)
     {
-        return _grid[coord.x, coord.y];
+        return LandAt(coord.x, coord.y);
+    }
+
+    public TerrainData LandAt(int x, int y)
+    {
+        return _grid[x, y];
     }
 }
