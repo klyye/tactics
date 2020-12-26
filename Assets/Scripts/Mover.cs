@@ -10,7 +10,6 @@ public class Mover : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private int _movePoints;
     public int movePoints => _movePoints;
-    public Action OnActionEnd;
 
     public void MoveAlong(IEnumerable<Vector2Int> path)
     {
@@ -34,6 +33,5 @@ public class Mover : MonoBehaviour
 
             yield return new WaitForSeconds(waitTime);
         }
-        OnActionEnd?.Invoke();
     }
 }

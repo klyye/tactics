@@ -6,7 +6,7 @@ using gm = GameManager;
 
 [RequireComponent(typeof(Collider2D))]
 [RequireComponent(typeof(Mover))]
-public class MoveIssuer : MonoBehaviour
+public class Selectable : MonoBehaviour
 {
     private Mover _mover;
     
@@ -18,7 +18,7 @@ public class MoveIssuer : MonoBehaviour
 
     private void OnMouseUpAsButton()
     {
-        gm.inputMan.SelectMovable(_mover);
+        gm.inputMan.Select(_mover);
         Debug.Log($"Selected {gameObject.name}");
     }
 
