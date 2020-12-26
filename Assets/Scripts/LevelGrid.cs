@@ -28,13 +28,11 @@ public class LevelGrid : MonoBehaviour
         for (var y = 0; y < height; y++)
         {
             var roll = Rand.value;
-            if (roll > 0.75)
+            if (roll > 0.75 || y == height - 1)
                 _grid[x, y] = walkables[Rand.Range(0, walkables.Length)];
             else
                 _grid[x, y] = _terrains[Rand.Range(0, _terrains.Length)];
         }
-
-        _grid[width - 1, height - 1] = walkables[Rand.Range(0, walkables.Length)];
         UpdateTilemap();
         _pathfinder = new Pathfinder(this);
     }
@@ -72,5 +70,11 @@ public class LevelGrid : MonoBehaviour
     public TerrainData LandAt(int x, int y)
     {
         return _grid[x, y];
+    }
+
+    public Vector2Int PositionToCoord(Vector3 position)
+    {
+        var vec3 = _tilemap.WorldToCell(position);
+        return new Vector2Int(vec3.x, vec3.y);
     }
 }

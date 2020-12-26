@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using gm = GameManager;
 
 public sealed class TurnManager 
 {
@@ -15,7 +16,7 @@ public sealed class TurnManager
         _actionQueue = new Queue<Action>();
     }
 
-    public void EnqueueAction(Action act)
+    public void IssueCommand(Action act)
     {
         _actionQueue.Enqueue(act);
     }
@@ -23,10 +24,11 @@ public sealed class TurnManager
     public void AdvanceTurn()
     {
         _turn++;
-        for (var i = 0; i < _actionQueue.Count; i++)
+        while (_actionQueue.Count > 0)
         {
             var act = _actionQueue.Dequeue();
             act.Invoke();
         }
+        gm.grid.UpdateTilemap();
     }
 }
