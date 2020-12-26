@@ -10,8 +10,11 @@ using Rand = UnityEngine.Random;
 [RequireComponent(typeof(Tilemap))]
 public class LevelGrid : MonoBehaviour
 {
-    public int width;
-    public int height;
+    [SerializeField] private int _width;
+    [SerializeField] private int _height;
+    
+    public int width => _width;
+    public int height => _height;
 
     [SerializeField] private TerrainData[] _terrains;
     private TerrainData[,] _grid;
@@ -37,9 +40,9 @@ public class LevelGrid : MonoBehaviour
         _pathfinder = new Pathfinder(this);
     }
 
-    public IEnumerable<Vector2Int> ShortestPath(Vector2Int start, Vector2Int end)
+    public IEnumerable<Vector2Int> ShortestPath(Vector2Int start, Vector2Int end, int pathCost)
     {
-        return _pathfinder.ShortestPath(start, end);
+        return _pathfinder.ShortestPath(start, end, pathCost);
     }
 
     public void UpdateTilemap()

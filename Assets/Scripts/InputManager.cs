@@ -7,8 +7,8 @@ using tm = TurnManager;
 public class InputManager : MonoBehaviour
 {
     private bool _movableSelected;
-    private Movable _selected;
-    
+    private Mover _selected;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,14 +23,17 @@ public class InputManager : MonoBehaviour
             var mouseWorldPos = gm.cam.ScreenToWorldPoint(Input.mousePosition);
             var dest = gm.grid.PositionToCoord(mouseWorldPos);
             var mover = _selected;
+            var start = gm.grid.PositionToCoord(mover.transform.position);
             Debug.Log($"Issuing move {mover.name} to ({dest.x}, {dest.y})");
-            tm.inst.IssueCommand(() => mover.MoveTo(dest));
+            var path = gm.grid.ShortestPath(start, dest, mover.movePoints);
+            if (path != null)
+                tm.inst.IssueCommand(() => mover.MoveAlong(path));
             _movableSelected = false;
             _selected = null;
         }
     }
 
-    public void SelectMovable(Movable selected)
+    public void SelectMovable(Mover selected)
     {
         _selected = selected;
         _movableSelected = true;

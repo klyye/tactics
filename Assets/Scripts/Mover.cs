@@ -1,19 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 using gm = GameManager;
 
-public class Movable : MonoBehaviour
+public class Mover : MonoBehaviour
 {
     [SerializeField] private float waitTime;
     [SerializeField] private float speed;
-    
-    public void MoveTo(Vector2Int dest)
+    [SerializeField] private int _movePoints;
+    public int movePoints => _movePoints;
+    public Action OnActionEnd;
+
+    public void MoveAlong(IEnumerable<Vector2Int> path)
     {
-        Debug.Log($"Moving {name} to ({dest.x}, {dest.y})");
         var start = gm.grid.PositionToCoord(transform.position);
         transform.position = gm.grid.CoordToPosition(start);
-        var path = gm.grid.ShortestPath(start, dest);
         if (path != null)
             StartCoroutine(FollowPath(path));
     }
@@ -32,5 +34,6 @@ public class Movable : MonoBehaviour
 
             yield return new WaitForSeconds(waitTime);
         }
+        OnActionEnd?.Invoke();
     }
 }

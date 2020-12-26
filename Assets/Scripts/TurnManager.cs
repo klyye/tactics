@@ -8,6 +8,8 @@ public sealed class TurnManager
 {
     private Queue<Action> _actionQueue;
     private int _turn;
+    
+
     public static TurnManager inst { get; } = new TurnManager();
 
     private TurnManager()
@@ -24,11 +26,16 @@ public sealed class TurnManager
     public void AdvanceTurn()
     {
         _turn++;
-        while (_actionQueue.Count > 0)
-        {
-            var act = _actionQueue.Dequeue();
-            act.Invoke();
-        }
-        gm.grid.UpdateTilemap();
+        NextAction();
+    }
+
+    private void NextAction()
+    {
+        if (_actionQueue.Count == 0) return;
+        var act = _actionQueue.Dequeue();
+        //act.OnActionEnd += NextAction;
+        act.Invoke();
+        //act.OnActionEnd -= NextAction;
+        NextAction();
     }
 }
