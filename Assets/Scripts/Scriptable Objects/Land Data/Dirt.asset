@@ -15,4 +15,5 @@ MonoBehaviour:
   _landName: Dirt
   _moveCost: 1
   _tile: {fileID: 11400000, guid: de0f49b272f682b4dbe785815d388026, type: 2}
-  _walkable: 1
+  _walkableInitial: 1
+  walkable: 1

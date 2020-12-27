@@ -15,4 +15,5 @@ MonoBehaviour:
   _landName: Forest
   _moveCost: 5
   _tile: {fileID: 11400000, guid: 041c243d2ada12749aa96cf4749fa283, type: 2}
-  _walkable: 1
+  _walkableInitial: 1
+  walkable: 1

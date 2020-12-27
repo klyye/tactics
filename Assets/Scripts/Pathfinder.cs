@@ -9,8 +9,8 @@ public class Pathfinder
 {
     private readonly Func<Vector2Int, Vector2Int, float> _heuristic;
 
-    // maps a pair <start, end> to the list of coordinates needed to go from start to end
-    private readonly IDictionary<Tuple<Vector2Int, Vector2Int>, IList<Vector2Int>> _solution;
+    // https://stackoverflow.com/questions/7760364/how-to-retrieve-actual-item-from-hashsett ????
+    private readonly IDictionary<Path, Path> _solution;
     private readonly LevelGrid _world;
     private IDictionary<Vector2Int, float> _distTo;
     private IDictionary<Vector2Int, Vector2Int> _edgeTo;
@@ -23,19 +23,20 @@ public class Pathfinder
     {
         _world = world;
         _heuristic = Vector2Int.Distance;
-        _solution = new Dictionary<Tuple<Vector2Int, Vector2Int>, IList<Vector2Int>>();
+        _solution = new Dictionary<Path, Path>();
     }
 
     // returns null on failure
-    public IEnumerable<Vector2Int> ShortestPath(Vector2Int start, Vector2Int end, int pathCost)
+    public Path ShortestPath(Vector2Int start, Vector2Int end, int pathBudget)
     {
-        var pair = new Tuple<Vector2Int, Vector2Int>(start, end);
-        if (_solution.ContainsKey(pair)) return _solution[pair];
-        var cost = Solve(start, end);
-        return  cost <= pathCost && cost > 0 ? _solution[pair] : null;
+        var path = new Path(start, end);
+        if (_solution.ContainsKey(path)) return _solution[path];
+        path = Solve(start, end);
+        if (path == null || path.cost > pathBudget) return null;
+        return path;
     }
 
-    private int Solve(Vector2Int start, Vector2Int end)
+    private Path Solve(Vector2Int start, Vector2Int end)
     {
         _end = end;
         var pathCost = 0;
@@ -65,7 +66,7 @@ public class Pathfinder
                 }
         }
 
-        if (_pq.Size() == 0) return -1;
+        if (_pq.Size() == 0) return null;
 
         var curr = end;
         currPath.Add(end);
@@ -77,8 +78,9 @@ public class Pathfinder
         }
 
         currPath.Reverse();
-        _solution[new Tuple<Vector2Int, Vector2Int>(start, end)] = currPath;
-        return pathCost;
+        var output = new Path(start, end, currPath, pathCost);
+        _solution[output] = output;
+        return output;
     }
 
     private void Relax(Vector2Int from, Vector2Int to)

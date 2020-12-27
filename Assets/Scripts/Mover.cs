@@ -3,24 +3,36 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using gm = GameManager;
+using tm = TurnManager;
 
+[RequireComponent(typeof(Actor))]
 public class Mover : MonoBehaviour
 {
     [SerializeField] private float waitTime;
     [SerializeField] private float speed;
-    [SerializeField] private int _movePoints;
-    public int movePoints => _movePoints;
+    private Actor _actor;
+    private bool _locked;
+    public bool locked => _locked;
 
-    public void MoveAlong(IEnumerable<Vector2Int> path)
+    private void Start()
     {
-        var start = gm.grid.PositionToCoord(transform.position);
-        transform.position = gm.grid.CoordToPosition(start);
-        if (path != null)
-            StartCoroutine(FollowPath(path));
+        _locked = false;
+        _actor = GetComponent<Actor>();
+        tm.inst.OnNextTurn += () => _locked = false;
+    }
+
+    public void MoveAlong(Path path)
+    {
+        transform.position = gm.grid.CoordToPosition(path.start);
+        _actor.actionPoints -= path.cost;
+        gm.grid.Unoccupy(path.start);
+        gm.grid.Occupy(path.end);
+        StartCoroutine(FollowPath(path.coords));
     }
 
     private IEnumerator FollowPath(IEnumerable<Vector2Int> path)
     {
+        _locked = true;
         foreach (var coord in path)
         {
             var next = gm.grid.CoordToPosition(coord);
@@ -33,5 +45,7 @@ public class Mover : MonoBehaviour
 
             yield return new WaitForSeconds(waitTime);
         }
+
+        _locked = false;
     }
 }

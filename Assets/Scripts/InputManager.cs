@@ -1,44 +1,43 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using gm = GameManager;
 using tm = TurnManager;
 
 public class InputManager : MonoBehaviour
 {
-    private Mover _selected;
-    private ISet<Mover> _issuedMovers;
+    private Selectable _selected;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        _issuedMovers = new HashSet<Mover>();
-        tm.inst.OnNextTurn += _issuedMovers.Clear;
+        tm.inst.OnNextTurn += Deselect;
+    }
+
+    private void Deselect()
+    {
+        _selected = null;
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0) && _selected)
         {
             var mouseWorldPos = gm.cam.ScreenToWorldPoint(Input.mousePosition);
             var dest = gm.grid.PositionToCoord(mouseWorldPos);
-            var mover = _selected;
-            var start = gm.grid.PositionToCoord(mover.transform.position);
-            var path = gm.grid.ShortestPath(start, dest, mover.movePoints);
-            if (path != null && !_issuedMovers.Contains(mover))
-            {
-                Debug.Log($"Issuing move {mover.name} to ({dest.x}, {dest.y})");
-                mover.MoveAlong(path);
-                _issuedMovers.Add(mover);
-            }
-
-            _selected = null;
+            ActionIssuer.IssueAction(_selected, dest);
+            Deselect();
         }
     }
 
-    public void Select(Mover selected)
+    public void Select(Selectable selected)
     {
-        _selected = selected;
+        if (!_selected)
+        {
+            _selected = selected;
+            return;
+        }
+
+        // selecting another unit after a unit is already selected counts as an attack
+        ActionIssuer.IssueAction(_selected, selected);
+        Deselect();
     }
 }

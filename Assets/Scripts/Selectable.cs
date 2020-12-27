@@ -5,20 +5,21 @@ using UnityEngine;
 using gm = GameManager;
 
 [RequireComponent(typeof(Collider2D))]
-[RequireComponent(typeof(Mover))]
+[RequireComponent(typeof(Actor))]
 public class Selectable : MonoBehaviour
 {
-    private Mover _mover;
+    private Actor _actor;
+    public Actor actor => _actor;
     
     // Start is called before the first frame update
     void Start()
     {
-        _mover = GetComponent<Mover>();
+        _actor = GetComponent<Actor>();
     }
 
     private void OnMouseUpAsButton()
     {
-        gm.inputMan.Select(_mover);
+        gm.inputMan.Select(this);
         Debug.Log($"Selected {gameObject.name}");
     }
 
