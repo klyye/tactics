@@ -14,6 +14,7 @@ public class LevelGrid : MonoBehaviour
 
     [SerializeField] private TerrainData[] _terrains;
     private TerrainData[,] _grid;
+    private bool[,] _occupied;
     private Pathfinder _pathfinder;
     private Tilemap _tilemap;
 
@@ -25,10 +26,13 @@ public class LevelGrid : MonoBehaviour
     {
         _tilemap = GetComponent<Tilemap>();
         _grid = new TerrainData[width, height];
+        _occupied = new bool[width, height];
+        
         var walkables = _terrains.Where(l => l.walkable).ToArray();
         for (var x = 0; x < width; x++)
         for (var y = 0; y < height; y++)
         {
+            _occupied[x, y] = false;
             var roll = Rand.value;
             if (roll > 0.75 || y == height - 1)
                 _grid[x, y] = walkables[Rand.Range(0, walkables.Length)];
@@ -47,12 +51,17 @@ public class LevelGrid : MonoBehaviour
 
     public void Occupy(Vector2Int coord)
     {
-        _grid[coord.x, coord.y].walkable = true;
+        _occupied[coord.x, coord.y] = true;
     }
 
     public void Unoccupy(Vector2Int coord)
     {
-        _grid[coord.x, coord.y].walkable = _grid[coord.x, coord.y].walkableInitial;
+        _occupied[coord.x, coord.y] = false;
+    }
+
+    public bool IsOccupied(Vector2Int coord)
+    {
+        return _occupied[coord.x, coord.y];
     }
 
     public void UpdateTilemap()

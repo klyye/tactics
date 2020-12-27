@@ -9,19 +9,12 @@ using UnityEngine.Tilemaps;
 [CreateAssetMenu(fileName = "New TerrainData", menuName = "Terrain Data", order = 51)]
 public class TerrainData : ScriptableObject
 {
-    [SerializeField] private string _landName;
     [SerializeField] private int _moveCost;
     [SerializeField] private Tile _tile;
-    [SerializeField] private bool _walkableInitial;
-    [HideInInspector] public bool walkable;
+    [SerializeField] private bool _walkable;
 
     public Tile tile => _tile;
     public int moveCost => _moveCost;
-    public string landName => _landName;
-    public bool walkableInitial => _walkableInitial;
+    public bool walkable => _walkable;
 
-    private void Awake()
-    {
-        walkable = _walkableInitial;
-    }
 }

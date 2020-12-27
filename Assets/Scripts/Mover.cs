@@ -13,12 +13,19 @@ public class Mover : MonoBehaviour
     private Actor _actor;
     private bool _locked;
     public bool locked => _locked;
+    public Vector2Int coords => gm.grid.PositionToCoord(transform.position);
 
     private void Start()
     {
         _locked = false;
         _actor = GetComponent<Actor>();
         tm.inst.OnNextTurn += () => _locked = false;
+        gm.grid.Occupy(coords);
+    }
+
+    private void OnDestroy()
+    {
+        gm.grid.Unoccupy(coords);
     }
 
     public void MoveAlong(Path path)

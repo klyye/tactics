@@ -53,7 +53,8 @@ public class Pathfinder
         {
             var p = _pq.RemoveMin();
             foreach (var adj in p.Adjacent())
-                if (_world.WithinBounds(adj) && _world.LandAt(adj).walkable)
+                if (_world.WithinBounds(adj) && _world.LandAt(adj).walkable &&
+                    !_world.IsOccupied(adj))
                 {
                     var weight = _world.LandAt(p).moveCost;
                     if (DistTo(p) + weight < DistTo(adj))
