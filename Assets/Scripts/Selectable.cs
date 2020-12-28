@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using gm = GameManager;
 
+/// <summary>
+///     Something you can click on which tells the InputManager that it was selected.
+/// </summary>
 [RequireComponent(typeof(Collider2D))]
 [RequireComponent(typeof(Actor))]
 public class Selectable : MonoBehaviour

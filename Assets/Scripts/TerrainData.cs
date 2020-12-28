@@ -13,8 +13,17 @@ public class TerrainData : ScriptableObject
     [SerializeField] private Tile _tile;
     [SerializeField] private bool _walkable;
 
+    /// <summary>
+    ///     The tile asset that corresponds to this type of terrain.
+    /// </summary>
     public Tile tile => _tile;
+    /// <summary>
+    ///     How many action points does it cost to move here?
+    /// </summary>
     public int moveCost => _moveCost;
+    /// <summary>
+    ///     Can you walk on this type of terrain?
+    /// </summary>
     public bool walkable => _walkable;
 
 }

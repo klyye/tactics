@@ -2,8 +2,14 @@ using UnityEngine;
 using gm = GameManager;
 using tm = TurnManager;
 
+/// <summary>
+///     Turns user inputs into issued actions.
+/// </summary>
 public class InputManager : MonoBehaviour
 {
+    /// <summary>
+    ///     The currently selected Selectable.
+    /// </summary>
     private Selectable _selected;
 
     private void Start()
@@ -11,6 +17,9 @@ public class InputManager : MonoBehaviour
         tm.inst.OnNextTurn += Deselect;
     }
 
+    /// <summary>
+    ///     Clear out the currently selected selectable.
+    /// </summary>
     private void Deselect()
     {
         _selected = null;
@@ -28,6 +37,10 @@ public class InputManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    ///     Select a selectable.
+    /// </summary>
+    /// <param name="selected">The selectable to be selected.</param>
     public void Select(Selectable selected)
     {
         if (!_selected)

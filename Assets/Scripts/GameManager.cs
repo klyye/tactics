@@ -7,8 +7,19 @@ using tm = TurnManager;
 /// </summary>
 public class GameManager : MonoBehaviour
 {
+    /// <summary>
+    ///     The main camera in this scene.
+    /// </summary>
     public static Camera cam;
+    
+    /// <summary>
+    ///     The one level grid that all the action is taking place on in this scene!
+    /// </summary>
     public static LevelGrid grid;
+    
+    /// <summary>
+    ///     The one input manager that handles all the input in this scene!
+    /// </summary>
     public static InputManager inputMan;
 
     // Start is called before the first frame update

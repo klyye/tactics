@@ -15,7 +15,6 @@ public class Pathfinder
     private IDictionary<Vector2Int, float> _distTo;
     private IDictionary<Vector2Int, Vector2Int> _edgeTo;
     private Vector2Int _end;
-    private int _pathCost;
 
     private MinPriorityQueue<Vector2Int> _pq;
 
@@ -53,10 +52,10 @@ public class Pathfinder
         {
             var p = _pq.RemoveMin();
             foreach (var adj in p.Adjacent())
-                if (_world.WithinBounds(adj) && _world.LandAt(adj).walkable &&
+                if (_world.WithinBounds(adj) && _world.TerrainAt(adj).walkable &&
                     !_world.IsOccupied(adj))
                 {
-                    var weight = _world.LandAt(p).moveCost;
+                    var weight = _world.TerrainAt(p).moveCost;
                     if (DistTo(p) + weight < DistTo(adj))
                     {
                         _edgeTo[adj] = p;
@@ -73,7 +72,7 @@ public class Pathfinder
         currPath.Add(end);
         while (!curr.Equals(start))
         {
-            pathCost += _world.LandAt(curr).moveCost;
+            pathCost += _world.TerrainAt(curr).moveCost;
             curr = _edgeTo[curr];
             currPath.Add(curr);
         }
@@ -82,16 +81,6 @@ public class Pathfinder
         var output = new Path(start, end, currPath, pathCost);
         _solution[output] = output;
         return output;
-    }
-
-    private void Relax(Vector2Int from, Vector2Int to)
-    {
-        var weight = _world.LandAt(to).moveCost;
-        if (!(DistTo(from) + weight < DistTo(to))) return;
-        _edgeTo[to] = from;
-        _distTo[to] = DistTo(from) + weight;
-        var pri = DistTo(to) + _heuristic(to, _end);
-        _pq.Insert(to, pri);
     }
 
     private float DistTo(Vector2Int c)
