@@ -31,8 +31,10 @@ public class Mover : MonoBehaviour
 
     public void MoveAlong(Path path)
     {
+        if (_actor.actionPoints < path.cost) return;
         transform.position = gm.grid.CoordToPosition(path.start);
         _actor.actionPoints -= path.cost;
+        Debug.Log($"{name} has {_actor.actionPoints} action points left.");
         gm.grid.Unoccupy(path.start);
         gm.grid.Occupy(path.end);
         StartCoroutine(FollowPath(path.coords));

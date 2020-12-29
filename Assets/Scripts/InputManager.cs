@@ -28,7 +28,7 @@ public class InputManager : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && _selected)
+        if (Input.GetKeyDown(KeyCode.Mouse1) && _selected)
         {
             var mouseWorldPos = gm.cam.ScreenToWorldPoint(Input.mousePosition);
             var dest = gm.grid.PositionToCoord(mouseWorldPos);

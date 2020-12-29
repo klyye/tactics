@@ -266,6 +266,8 @@ GameObject:
   - component: {fileID: 1196372204}
   - component: {fileID: 1196372203}
   - component: {fileID: 1196372205}
+  - component: {fileID: 1196372206}
+  - component: {fileID: 1196372199}
   m_Layer: 0
   m_Name: Water Elemental
   m_TagString: Untagged
@@ -273,6 +275,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1196372199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196372198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5353501cc181f7f41ab5acd54dfff2af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHp: 5
 --- !u!212 &1196372200
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -404,6 +419,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actionPoints: 0
   _maxPoints: 40
+--- !u!114 &1196372206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196372198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45032891f773be840b55b61fcac87e21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atkCost: 5
+  damage: 1
 --- !u!1 &1270752628
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,6 +534,8 @@ GameObject:
   - component: {fileID: 1579399672}
   - component: {fileID: 1579399671}
   - component: {fileID: 1579399673}
+  - component: {fileID: 1579399674}
+  - component: {fileID: 1579399669}
   m_Layer: 0
   m_Name: Flame Elemental
   m_TagString: Untagged
@@ -577,6 +608,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1579399669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579399666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5353501cc181f7f41ab5acd54dfff2af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHp: 5
 --- !u!61 &1579399670
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -643,6 +687,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actionPoints: 0
   _maxPoints: 40
+--- !u!114 &1579399674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579399666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45032891f773be840b55b61fcac87e21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atkCost: 5
+  damage: 1
 --- !u!1 &1752594343
 GameObject:
   m_ObjectHideFlags: 0

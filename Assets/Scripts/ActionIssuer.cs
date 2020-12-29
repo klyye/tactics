@@ -15,6 +15,7 @@ public static class ActionIssuer
     /// <param name="target">the place to move to</param>
     public static void IssueAction(Selectable doer, Vector2Int target)
     {
+        if (!tm.inst.currentPlayer.Controls(doer)) return;
         var mover = doer.GetComponent<Mover>();
         if (!mover || mover.locked) return;
         var start = gm.grid.PositionToCoord(mover.transform.position);
@@ -31,6 +32,10 @@ public static class ActionIssuer
     /// <param name="target">The attackee.</param>
     public static void IssueAction(Selectable doer, Selectable target)
     {
-        // placeholder for attacks
+        if (!tm.inst.currentPlayer.Controls(doer)) return;
+        var atker = doer.GetComponent<Attacker>();
+        var defnder = target.GetComponent<Defender>();
+        if (!atker || !defnder) return;
+        atker.Attack(defnder);
     }
 }

@@ -14,7 +14,7 @@ public class Selectable : MonoBehaviour
 {
     private Actor _actor;
     public Actor actor => _actor;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,13 +23,11 @@ public class Selectable : MonoBehaviour
 
     private void OnMouseUpAsButton()
     {
-        if (tm.inst.currentPlayer.Controls(this)) 
-            gm.inputMan.Select(this);
+        gm.inputMan.Select(this);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 }
