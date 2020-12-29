@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
@@ -15,11 +13,11 @@ public class BasicAttacker : Attacker
     /// <summary>
     ///     Deals a set amount of damage to the target.
     /// </summary>
-    /// <param name="target"></param>
+    /// <param name="target">The thing to hit.</param>
     public override void Attack(Defender target)
     {
         base.Attack(target);
-        target.TakeDamage(damage);
+        if (_actor.actionPoints > 0)
+            target.TakeDamage(damage);
     }
-    
 }

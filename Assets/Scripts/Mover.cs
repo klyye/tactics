@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
 using gm = GameManager;
 using tm = TurnManager;
 
@@ -11,15 +10,15 @@ public class Mover : MonoBehaviour
     [SerializeField] private float waitTime;
     [SerializeField] private float speed;
     private Actor _actor;
-    private bool _locked;
-    public bool locked => _locked;
+    public bool locked { get; private set; }
+
     public Vector2Int coords => gm.grid.PositionToCoord(transform.position);
 
     private void Start()
     {
-        _locked = false;
+        locked = false;
         _actor = GetComponent<Actor>();
-        tm.inst.OnNextTurn += () => _locked = false;
+        tm.inst.OnNextTurn += () => locked = false;
         gm.grid.Occupy(coords);
     }
 
@@ -42,7 +41,7 @@ public class Mover : MonoBehaviour
 
     private IEnumerator FollowPath(IEnumerable<Vector2Int> path)
     {
-        _locked = true;
+        locked = true;
         foreach (var coord in path)
         {
             var next = gm.grid.CoordToPosition(coord);
@@ -56,6 +55,6 @@ public class Mover : MonoBehaviour
             yield return new WaitForSeconds(waitTime);
         }
 
-        _locked = false;
+        locked = false;
     }
 }

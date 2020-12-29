@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
@@ -8,17 +6,17 @@ using UnityEngine;
 public class Defender : MonoBehaviour
 {
     /// <summary>
+    ///     The total amount of hp this defender can have.
+    /// </summary>
+    [SerializeField] private int _maxHp;
+
+    /// <summary>
     ///     Hit points. Classic video game mechanic.
     /// </summary>
     private int _hp;
 
-    /// <summary>
-    ///     The total amount of hp this defender can have.
-    /// </summary>
-    [SerializeField] private int _maxHp;
-    
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         _hp = _maxHp;
     }

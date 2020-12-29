@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using gm = GameManager;
@@ -7,11 +6,16 @@ using gm = GameManager;
 /// <summary>
 ///     Handles the passage of turns and whose turn it is.
 /// </summary>
-public sealed class TurnManager 
+public sealed class TurnManager
 {
+    private readonly IList<Player> _players;
     private int _turn;
-    public event Action OnNextTurn;
-    private IList<Player> _players;
+
+    private TurnManager()
+    {
+        _turn = 0;
+        _players = new List<Player>();
+    }
 
     /// <summary>
     ///     The singleton instance of this class.
@@ -23,11 +27,7 @@ public sealed class TurnManager
     /// </summary>
     public Player currentPlayer => _players[_turn % _players.Count];
 
-    private TurnManager()
-    {
-        _turn = 0;
-        _players = new List<Player>();
-    }
+    public event Action OnNextTurn;
 
     /// <summary>
     ///     Adds a player to the list of players taking turns.
@@ -48,5 +48,4 @@ public sealed class TurnManager
         Debug.Log($"Turn {_turn}: Player {currentPlayer.name} is in control.");
         OnNextTurn?.Invoke();
     }
-
 }

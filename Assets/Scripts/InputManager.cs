@@ -17,14 +17,6 @@ public class InputManager : MonoBehaviour
         tm.inst.OnNextTurn += Deselect;
     }
 
-    /// <summary>
-    ///     Clear out the currently selected selectable.
-    /// </summary>
-    private void Deselect()
-    {
-        _selected = null;
-    }
-
     // Update is called once per frame
     private void Update()
     {
@@ -35,6 +27,14 @@ public class InputManager : MonoBehaviour
             ActionIssuer.IssueAction(_selected, dest);
             Deselect();
         }
+    }
+
+    /// <summary>
+    ///     Clear out the currently selected selectable.
+    /// </summary>
+    private void Deselect()
+    {
+        _selected = null;
     }
 
     /// <summary>

@@ -4,7 +4,7 @@ using tm = TurnManager;
 
 /// <summary>
 ///     Given a Selectable who does the action and either a target square or a target selectable,
-///     issue the appropriate action to the action doer (move, attack, etc).
+///     issue the appropriate action to the action doer (move, attack, etc) if it is valid.
 /// </summary>
 public static class ActionIssuer
 {
@@ -15,12 +15,11 @@ public static class ActionIssuer
     /// <param name="target">the place to move to</param>
     public static void IssueAction(Selectable doer, Vector2Int target)
     {
-        if (!tm.inst.currentPlayer.Controls(doer)) return;
         var mover = doer.GetComponent<Mover>();
-        if (!mover || mover.locked) return;
+        var valid = mover && !mover.locked && tm.inst.currentPlayer.Controls(doer);
+        if (!valid) return;
         var start = gm.grid.PositionToCoord(mover.transform.position);
         var path = gm.grid.ShortestPath(start, target, doer.actor.actionPoints);
-
         if (path != null)
             mover.MoveAlong(path);
     }
@@ -32,10 +31,13 @@ public static class ActionIssuer
     /// <param name="target">The attackee.</param>
     public static void IssueAction(Selectable doer, Selectable target)
     {
-        if (!tm.inst.currentPlayer.Controls(doer)) return;
+        var doercrds = gm.grid.PositionToCoord(doer.transform.position);
+        var targetcrds = gm.grid.PositionToCoord(target.transform.position);
         var atker = doer.GetComponent<Attacker>();
         var defnder = target.GetComponent<Defender>();
-        if (!atker || !defnder) return;
+        var valid = tm.inst.currentPlayer.Controls(doer) && atker && defnder &&
+                    Vector2Int.Distance(doercrds, targetcrds) < atker.atkRange;
+        if (!valid) return;
         atker.Attack(defnder);
     }
 }

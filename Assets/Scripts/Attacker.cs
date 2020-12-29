@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
@@ -10,15 +8,24 @@ using UnityEngine;
 public abstract class Attacker : MonoBehaviour
 {
     /// <summary>
+    ///     How many tiles over the attack can reach.
+    /// </summary>
+    [SerializeField] private int _atkRange;
+
+    [SerializeField] protected int atkCost;
+
+    /// <summary>
     ///     The actor component of this attacker, stores action points.
     /// </summary>
-    private Actor _actor;
-    
+    protected Actor _actor;
+
+    public int atkRange => _atkRange;
+
     private void Start()
     {
         _actor = GetComponent<Actor>();
     }
-    
+
     /// <summary>
     ///     Attacks the target.
     /// </summary>
@@ -29,6 +36,4 @@ public abstract class Attacker : MonoBehaviour
         _actor.actionPoints -= atkCost;
         Debug.Log($"{name} has {_actor.actionPoints} action points left.");
     }
-    
-    [SerializeField] protected int atkCost;
 }

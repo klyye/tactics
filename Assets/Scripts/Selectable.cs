@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using gm = GameManager;
 using tm = TurnManager;
@@ -12,22 +9,16 @@ using tm = TurnManager;
 [RequireComponent(typeof(Actor))]
 public class Selectable : MonoBehaviour
 {
-    private Actor _actor;
-    public Actor actor => _actor;
+    public Actor actor { get; private set; }
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        _actor = GetComponent<Actor>();
+        actor = GetComponent<Actor>();
     }
-
+    
     private void OnMouseUpAsButton()
     {
         gm.inputMan.Select(this);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
     }
 }
