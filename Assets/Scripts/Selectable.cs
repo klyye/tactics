@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using gm = GameManager;
+using tm = TurnManager;
 
 /// <summary>
 ///     Something you can click on which tells the InputManager that it was selected.
@@ -22,8 +23,8 @@ public class Selectable : MonoBehaviour
 
     private void OnMouseUpAsButton()
     {
-        gm.inputMan.Select(this);
-        Debug.Log($"Selected {gameObject.name}");
+        if (tm.inst.currentPlayer.Controls(this)) 
+            gm.inputMan.Select(this);
     }
 
     // Update is called once per frame

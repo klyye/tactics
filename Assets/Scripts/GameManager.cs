@@ -22,13 +22,26 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public static InputManager inputMan;
 
+    /// <summary>
+    ///     TODO: TEMPORARY WAY TO GET PLAYERS INTO THE GAME VIA UNITY INSPECTOR
+    /// </summary>
+    [SerializeField] private string[] playerNames;
+
     // Start is called before the first frame update
     private void Awake()
     {
         cam = Camera.main;
         inputMan = FindObjectOfType<InputManager>();
         grid = FindObjectOfType<LevelGrid>();
-        
+        for (var i = 0; i < playerNames.Length; i++)
+        {
+            var p = new Player(playerNames[i]);
+            // todo: placeholder stuff
+            var fireman = GameObject.Find("Flame Elemental").GetComponent<Selectable>();
+            var waterman = GameObject.Find("Water Elemental").GetComponent<Selectable>();
+            p.Control(i % 2 == 0 ? fireman : waterman);
+            tm.inst.AddPlayer(p, i);
+        }
     }
 
     // Update is called once per frame

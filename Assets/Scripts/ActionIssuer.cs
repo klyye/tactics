@@ -1,14 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
 using UnityEngine;
 using gm = GameManager;
+using tm = TurnManager;
 
 /// <summary>
 ///     Given a Selectable who does the action and either a target square or a target selectable,
 ///     issue the appropriate action to the action doer (move, attack, etc).
 /// </summary>
-public static class ActionIssuer 
+public static class ActionIssuer
 {
     /// <summary>
     ///     Moves the doer to the target location.
@@ -21,6 +19,7 @@ public static class ActionIssuer
         if (!mover || mover.locked) return;
         var start = gm.grid.PositionToCoord(mover.transform.position);
         var path = gm.grid.ShortestPath(start, target, doer.actor.actionPoints);
+
         if (path != null)
             mover.MoveAlong(path);
     }

@@ -25,7 +25,8 @@ public class Mover : MonoBehaviour
 
     private void OnDestroy()
     {
-        gm.grid.Unoccupy(coords);
+        if (gm.grid)
+            gm.grid.Unoccupy(coords);
     }
 
     public void MoveAlong(Path path)
