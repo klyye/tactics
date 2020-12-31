@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
             // todo: placeholder stuff
             var fireman = GameObject.Find("Flame Elemental").GetComponent<Selectable>();
             var waterman = GameObject.Find("Water Elemental").GetComponent<Selectable>();
-            p.Control(i % 2 == 0 ? fireman : waterman);
+            p.units.Add(i % 2 == 0 ? fireman : waterman);
             tm.inst.AddPlayer(p, i);
         }
     }
