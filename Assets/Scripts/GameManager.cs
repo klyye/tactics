@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
             tm.inst.AddPlayer(p, i);
         }
     }
-
+    
     // Update is called once per frame
     private void Update()
     {
