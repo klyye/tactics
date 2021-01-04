@@ -363,6 +363,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _healthBarPrefab: {fileID: 3236476915281113848, guid: 8f7d4c029820ec1419d5c9dcbf23e1a7, type: 3}
   _offset: {x: 0, y: -0.5, z: 0}
+--- !u!1 &1171646911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1171646912}
+  - component: {fileID: 1171646913}
+  m_Layer: 0
+  m_Name: Grid Highlighter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1171646912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171646911}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1171646913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171646911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 388d7b7e06da41d4fa3e6b7aa0aff643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlight: {r: 1, g: 1, b: 0, a: 1}
 --- !u!1 &1196372198
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,8 +558,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7b23e8375ec119459b4318128035a7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 0.5
-  speed: 5
+  waitTime: 0.25
+  speed: 7
 --- !u!114 &1196372205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -529,7 +573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionPoints: 0
-  _maxPoints: 40
+  _maxPoints: 25
 --- !u!114 &1196372206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -785,8 +829,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7b23e8375ec119459b4318128035a7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 0.5
-  speed: 5
+  waitTime: 0.25
+  speed: 7
 --- !u!114 &1579399673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -800,7 +844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionPoints: 0
-  _maxPoints: 40
+  _maxPoints: 25
 --- !u!114 &1579399674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -953,7 +997,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 07736daeed5da88409896c4132eedfbc, type: 2}
   - {fileID: 11400000, guid: 1c189e9ae21377f488a20e97494814b7, type: 2}
   - {fileID: 11400000, guid: c124df269ab8c99408735fb3e85fbe3b, type: 2}
-  _highlight: {r: 0, g: 1, b: 0, a: 1}
 --- !u!1 &1941664238
 GameObject:
   m_ObjectHideFlags: 0

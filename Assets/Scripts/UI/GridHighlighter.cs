@@ -3,52 +3,32 @@ using gm = GameManager;
 
 /// <summary>
 ///     Tells the LevelGrid which tiles to highlight, and when.
-///
 ///     I feel like this class should be static.
 /// </summary>
-public class GridHighlighter
+public class GridHighlighter : MonoBehaviour
 {
     /// <summary>
-    ///     Is true at (x, y) if that tile should be highlighted on the next call to HighlightGrid.
+    ///     What color to highlight tiles with.
     /// </summary>
-    private readonly bool[,] _highlighted;
+    public Color highlight;
 
-    public GridHighlighter()
+    private static Selectable selected => gm.inputMan.selected;
+
+    private void Start()
     {
         gm.inputMan.OnEnterAttackState += HighlightAttackRange;
         gm.inputMan.OnEnterMoveState += HighlightMovementRange;
         gm.inputMan.OnEnterNoneState += ClearHighlights;
-        _highlighted = new bool[gm.grid.width, gm.grid.height];
-        ClearHighlights();
-    }
-
-    private Selectable _selected => gm.inputMan.selected;
-
-    /// <summary>
-    ///     Highlight tiles on the game grid based on the data in _highlighted.
-    /// </summary>
-    private void HighlightGrid()
-    {
-        for (var x = 0; x < gm.grid.width; x++)
-        for (var y = 0; y < gm.grid.height; y++)
-        {
-            var pos = new Vector2Int(x, y);
-            if (_highlighted[x, y])
-                gm.grid.HighlightTile(pos);
-            else
-                gm.grid.UnhighlightTile(pos);
-        }
     }
 
     /// <summary>
-    ///     Clear all currently planned highlights.
+    ///     Clear all highlights.
     /// </summary>
     private void ClearHighlights()
     {
         for (var x = 0; x < gm.grid.width; x++)
         for (var y = 0; y < gm.grid.height; y++)
-            _highlighted[x, y] = false;
-        HighlightGrid();
+            gm.grid.SetTileColor(new Vector2Int(x, y), Color.white);
     }
 
     /// <summary>
@@ -56,19 +36,20 @@ public class GridHighlighter
     /// </summary>
     private void HighlightAttackRange()
     {
-        var atker = _selected.GetComponent<Attacker>();
+        var atker = selected.GetComponent<Attacker>();
         if (!atker) return;
-        var center = gm.grid.PositionToCoord(_selected.transform.position);
+        var center = gm.grid.PositionToCoord(selected.transform.position);
         var radius = atker.atkRange;
         for (var x = center.x - radius; x < center.x + radius; x++)
         for (var y = center.y - radius; y < center.y + radius; y++)
         {
             var point = new Vector2Int(x, y);
             if (gm.grid.WithinBounds(point))
-                _highlighted[x, y] = Vector2Int.Distance(center, point) < radius;
+            {
+                var col = Vector2Int.Distance(center, point) < radius ? highlight : Color.white;
+                gm.grid.SetTileColor(point, col);
+            }
         }
-
-        HighlightGrid();
     }
 
     /// <summary>
@@ -76,22 +57,11 @@ public class GridHighlighter
     /// </summary>
     private void HighlightMovementRange()
     {
-        var mover = _selected.GetComponent<Mover>();
+        var mover = selected.GetComponent<Mover>();
         if (!mover) return;
-        var start = gm.grid.PositionToCoord(_selected.transform.position);
-        var actor = _selected.GetComponent<Actor>();
-        Floodfill(start, actor.actionPoints);
-        HighlightGrid();
-    }
-
-    private void Floodfill(Vector2Int currPos, int pointsLeft)
-    {
-        var terrain = gm.grid.TerrainAt(currPos);
-        var cost = terrain.moveCost;
-        if (pointsLeft < 0 || !terrain.walkable) return;
-        _highlighted[currPos.x, currPos.y] = true;
-        foreach (var adj in currPos.Adjacent())
-            if (gm.grid.WithinBounds(adj) && !_highlighted[adj.x, adj.y])
-                Floodfill(adj, pointsLeft - cost);
+        var start = gm.grid.PositionToCoord(selected.transform.position);
+        var actor = selected.GetComponent<Actor>();
+        foreach (var coord in Pathfinder.ReachablePoints(start, actor.actionPoints))
+            gm.grid.SetTileColor(coord, highlight);
     }
 }

@@ -19,7 +19,7 @@ public static class ActionIssuer
         var valid = mover && !mover.locked && tm.inst.currentPlayer.units.Contains(doer);
         if (!valid) return;
         var start = gm.grid.PositionToCoord(mover.transform.position);
-        var path = gm.grid.ShortestPath(start, target, doer.actor.actionPoints);
+        var path = Pathfinder.ShortestPath(start, target, doer.actor.actionPoints);
         if (path != null)
             mover.MoveAlong(path);
     }
