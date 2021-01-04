@@ -30,10 +30,5 @@ public abstract class Attacker : MonoBehaviour
     ///     Attacks the target.
     /// </summary>
     /// <param name="target">The target to attack.</param>
-    public virtual void Attack(Defender target)
-    {
-        if (_actor.actionPoints < atkCost) return;
-        _actor.actionPoints -= atkCost;
-        Debug.Log($"{name} has {_actor.actionPoints} action points left.");
-    }
+    public abstract void Attack(Defender target);
 }

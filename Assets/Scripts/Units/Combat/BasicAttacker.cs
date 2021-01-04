@@ -16,8 +16,9 @@ public class BasicAttacker : Attacker
     /// <param name="target">The thing to hit.</param>
     public override void Attack(Defender target)
     {
-        base.Attack(target);
-        if (_actor.actionPoints > 0)
-            target.TakeDamage(damage);
+        if (_actor.actionPoints < atkCost) return;
+        _actor.actionPoints -= atkCost;
+        Debug.Log($"{name} has {_actor.actionPoints} action points left.");
+        target.TakeDamage(damage);
     }
 }

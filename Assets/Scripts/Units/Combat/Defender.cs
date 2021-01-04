@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 
 /// <summary>
 ///     Defenders have health and can take damage.
@@ -15,10 +16,19 @@ public class Defender : MonoBehaviour
     /// </summary>
     private int _hp;
 
+    /// <summary>
+    ///     Event that fires once this defender dies.
+    /// </summary>
+    public event Action OnDeath;
+
+    public int hp => _hp;
+    public int maxHp => _maxHp;
+
     // Start is called before the first frame update
     private void Start()
     {
         _hp = _maxHp;
+        HealthBars.inst.AddDefender(this);
     }
 
     /// <summary>
@@ -38,5 +48,6 @@ public class Defender : MonoBehaviour
     public void Die()
     {
         Destroy(gameObject);
+        OnDeath?.Invoke();
     }
 }
