@@ -1,7 +1,9 @@
 ﻿using System.Linq;
+using System.Numerics;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using Rand = UnityEngine.Random;
+using Vector3 = UnityEngine.Vector3;
 
 /// <summary>
 ///     The grid that the game happens on...
@@ -32,7 +34,18 @@ public class LevelGrid : MonoBehaviour
     ///     lets us calculate the shortest path between two tiles on the grid.
     /// </summary>
     private Pathfinder _pathfinder;
+
+    /// <summary>
+    ///     properly highlights grid tiles upon correct inputs. idk where to really put this
+    /// </summary>
+    private GridHighlighter _highlighter;
+
     private Tilemap _tilemap;
+
+    /// <summary>
+    ///     What color to highlight tiles with.
+    /// </summary>
+    [SerializeField] private Color _highlight;
 
     public int width => _width;
     public int height => _height;
@@ -57,7 +70,12 @@ public class LevelGrid : MonoBehaviour
         }
 
         UpdateTilemap();
-        _pathfinder = new Pathfinder(this);
+        _pathfinder = new Pathfinder();
+    }
+
+    private void Start()
+    {
+        _highlighter = new GridHighlighter();
     }
 
     /// <summary>
@@ -109,7 +127,9 @@ public class LevelGrid : MonoBehaviour
         for (var y = 0; y < height; y++)
         {
             var land = TerrainAt(x, y);
-            _tilemap.SetTile(new Vector3Int(x, y, 0), land.tile);
+            var pos = new Vector3Int(x, y, 0);
+            _tilemap.SetTile(pos, land.tile);
+            _tilemap.SetTileFlags(pos, TileFlags.None);
         }
     }
 
@@ -168,8 +188,17 @@ public class LevelGrid : MonoBehaviour
 
     public void HighlightTile(Vector2Int coord)
     {
-        var pos = coord.ToVector3Int();
-        _tilemap.SetTileFlags(pos, TileFlags.None);
-        _tilemap.SetColor(pos, Color.gray);
+        HighlightTile(coord, _highlight);
     }
+
+    public void UnhighlightTile(Vector2Int coord)
+    {
+        HighlightTile(coord, Color.white);
+    }
+
+    private void HighlightTile(Vector2Int coord, Color col)
+    {
+        _tilemap.SetColor(coord.ToVector3Int(), col);
+    }
+
 }

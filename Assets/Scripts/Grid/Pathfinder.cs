@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using gm = GameManager;
 
 /// <summary>
 ///     Finds the shortest path between two cells on a given LevelGrid.
@@ -11,16 +12,14 @@ public class Pathfinder
 
     // https://stackoverflow.com/questions/7760364/how-to-retrieve-actual-item-from-hashsett ????
     private readonly IDictionary<Path, Path> _solution;
-    private readonly LevelGrid _world;
     private IDictionary<Vector2Int, float> _distTo;
     private IDictionary<Vector2Int, Vector2Int> _edgeTo;
     private Vector2Int _end;
 
     private MinPriorityQueue<Vector2Int> _pq;
 
-    public Pathfinder(LevelGrid world)
+    public Pathfinder()
     {
-        _world = world;
         _heuristic = Vector2Int.Distance;
         _solution = new Dictionary<Path, Path>();
     }
@@ -52,10 +51,10 @@ public class Pathfinder
         {
             var p = _pq.RemoveMin();
             foreach (var adj in p.Adjacent())
-                if (_world.WithinBounds(adj) && _world.TerrainAt(adj).walkable &&
-                    !_world.IsOccupied(adj))
+                if (gm.grid.WithinBounds(adj) && gm.grid.TerrainAt(adj).walkable &&
+                    !gm.grid.IsOccupied(adj))
                 {
-                    var weight = _world.TerrainAt(p).moveCost;
+                    var weight = gm.grid.TerrainAt(p).moveCost;
                     if (DistTo(p) + weight < DistTo(adj))
                     {
                         _edgeTo[adj] = p;
@@ -72,7 +71,7 @@ public class Pathfinder
         currPath.Add(end);
         while (!curr.Equals(start))
         {
-            pathCost += _world.TerrainAt(curr).moveCost;
+            pathCost += gm.grid.TerrainAt(curr).moveCost;
             curr = _edgeTo[curr];
             currPath.Add(curr);
         }

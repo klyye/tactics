@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using gm = GameManager;
 using tm = TurnManager;
@@ -8,19 +9,37 @@ using tm = TurnManager;
 public class InputManager : MonoBehaviour
 {
     /// <summary>
+    ///     The key to press to issue an attack.
+    /// </summary>
+    public KeyCode attackKey;
+
+    /// <summary>
+    ///     The key to press to issue a move.
+    /// </summary>
+    public KeyCode moveKey;
+
+    /// <summary>
     ///     The currently selected Selectable.
     /// </summary>
     private Selectable _selected;
 
+    public Selectable selected => _selected;
+
+    /// <summary>
+    ///     What action the player wants to issue.
+    /// </summary>
+    private ActionState _state;
+
     private void Start()
     {
         tm.inst.OnNextTurn += Deselect;
+        _state = ActionState.NONE;
     }
 
     // Update is called once per frame
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse1) && _selected)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && _state == ActionState.MOVE)
         {
             var mouseWorldPos = gm.cam.ScreenToWorldPoint(Input.mousePosition);
             var dest = gm.grid.PositionToCoord(mouseWorldPos);
@@ -28,13 +47,35 @@ public class InputManager : MonoBehaviour
             Deselect();
         }
 
-        if (Input.GetKeyDown(KeyCode.Mouse2))
+        if (_selected)
         {
-            var mouseWorldPos = gm.cam.ScreenToWorldPoint(Input.mousePosition);
-            var dest = gm.grid.PositionToCoord(mouseWorldPos);
-            gm.grid.HighlightTile(dest);
+            if (Input.GetKeyDown(attackKey))
+            {
+                _state = ActionState.ATTACK;
+                OnEnterAttackState?.Invoke();
+            }
+            else if (Input.GetKeyDown(moveKey))
+            {
+                _state = ActionState.MOVE;
+                OnEnterMoveState?.Invoke();
+            }
         }
     }
+
+    /// <summary>
+    ///     Triggers when the input moves into a state where no action is being performed.
+    /// </summary>
+    public event Action OnEnterNoneState;
+
+    /// <summary>
+    ///     Triggers when the input moves into a state where a move is being performed.
+    /// </summary>
+    public event Action OnEnterMoveState;
+
+    /// <summary>
+    ///     Triggers when the input moves into a state where an attack is being performed.
+    /// </summary>
+    public event Action OnEnterAttackState;
 
     /// <summary>
     ///     Clear out the currently selected selectable.
@@ -42,6 +83,8 @@ public class InputManager : MonoBehaviour
     private void Deselect()
     {
         _selected = null;
+        OnEnterNoneState?.Invoke();
+        _state = ActionState.NONE;
     }
 
     /// <summary>
@@ -50,14 +93,25 @@ public class InputManager : MonoBehaviour
     /// <param name="selected">The selectable to be selected.</param>
     public void Select(Selectable selected)
     {
-        if (!_selected)
+        if (_state == ActionState.ATTACK)
+        {
+            // selecting another unit after a unit is already selected counts as an attack
+            ActionIssuer.IssueAttack(_selected, selected);
+            Deselect();
+        }
+        else
         {
             _selected = selected;
-            return;
         }
+    }
 
-        // selecting another unit after a unit is already selected counts as an attack
-        ActionIssuer.IssueAttack(_selected, selected);
-        Deselect();
+    /// <summary>
+    ///     All possible types of actions that the player can issue.
+    /// </summary>
+    private enum ActionState
+    {
+        NONE,
+        MOVE,
+        ATTACK
     }
 }
