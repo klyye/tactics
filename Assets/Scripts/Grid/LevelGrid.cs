@@ -1,9 +1,7 @@
 ﻿using System.Linq;
-using System.Numerics;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using Rand = UnityEngine.Random;
-using Vector3 = UnityEngine.Vector3;
 
 /// <summary>
 ///     The grid that the game happens on...
@@ -30,22 +28,7 @@ public class LevelGrid : MonoBehaviour
     /// </summary>
     private bool[,] _occupied;
 
-    /// <summary>
-    ///     lets us calculate the shortest path between two tiles on the grid.
-    /// </summary>
-    private Pathfinder _pathfinder;
-
-    /// <summary>
-    ///     properly highlights grid tiles upon correct inputs. idk where to really put this
-    /// </summary>
-    private GridHighlighter _highlighter;
-
     private Tilemap _tilemap;
-
-    /// <summary>
-    ///     What color to highlight tiles with.
-    /// </summary>
-    [SerializeField] private Color _highlight;
 
     public int width => _width;
     public int height => _height;
@@ -70,24 +53,6 @@ public class LevelGrid : MonoBehaviour
         }
 
         UpdateTilemap();
-        _pathfinder = new Pathfinder();
-    }
-
-    private void Start()
-    {
-        _highlighter = new GridHighlighter();
-    }
-
-    /// <summary>
-    ///     Returns the shortest path between two points. Null on failure.
-    /// </summary>
-    /// <param name="start">The starting point in the path.</param>
-    /// <param name="end">The ending point in the path.</param>
-    /// <param name="pathBudget">The total number of actions available to spend on the path.</param>
-    /// <returns>A path that is the shortest between start and end on this levelgrid</returns>
-    public Path ShortestPath(Vector2Int start, Vector2Int end, int pathBudget)
-    {
-        return _pathfinder.ShortestPath(start, end, pathBudget);
     }
 
     /// <summary>
@@ -186,19 +151,13 @@ public class LevelGrid : MonoBehaviour
         return new Vector2Int(vec3.x, vec3.y);
     }
 
-    public void HighlightTile(Vector2Int coord)
-    {
-        HighlightTile(coord, _highlight);
-    }
-
-    public void UnhighlightTile(Vector2Int coord)
-    {
-        HighlightTile(coord, Color.white);
-    }
-
-    private void HighlightTile(Vector2Int coord, Color col)
+    /// <summary>
+    ///     Sets the color of a tile to col. Set to Color.white to return to original color.
+    /// </summary>
+    /// <param name="coord">The location of the tile whose color we are setting.</param>
+    /// <param name="col">The color to set the tile to.</param>
+    public void SetTileColor(Vector2Int coord, Color col)
     {
         _tilemap.SetColor(coord.ToVector3Int(), col);
     }
-
 }
