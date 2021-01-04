@@ -12,6 +12,7 @@ public class HealthBars : MonoBehaviour
     private IDictionary<Defender, Slider> _sliders;
 
     [SerializeField] private Slider _healthBarPrefab;
+
     /// <summary>
     ///     The positional offset of the health bar from the center of the defender it follows.
     /// </summary>
@@ -38,7 +39,7 @@ public class HealthBars : MonoBehaviour
             var unit = pair.Key;
 
             bar.value = (float) unit.hp / unit.maxHp;
-            bar.transform.position = gm.cam.WorldToScreenPoint(unit.transform.position) + _offset;
+            bar.transform.position = gm.cam.WorldToScreenPoint(unit.transform.position + _offset);
         }
     }
 

@@ -24,8 +24,15 @@ public class InputManager : MonoBehaviour
         {
             var mouseWorldPos = gm.cam.ScreenToWorldPoint(Input.mousePosition);
             var dest = gm.grid.PositionToCoord(mouseWorldPos);
-            ActionIssuer.IssueAction(_selected, dest);
+            ActionIssuer.IssueMove(_selected, dest);
             Deselect();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Mouse2))
+        {
+            var mouseWorldPos = gm.cam.ScreenToWorldPoint(Input.mousePosition);
+            var dest = gm.grid.PositionToCoord(mouseWorldPos);
+            gm.grid.HighlightTile(dest);
         }
     }
 
@@ -50,7 +57,7 @@ public class InputManager : MonoBehaviour
         }
 
         // selecting another unit after a unit is already selected counts as an attack
-        ActionIssuer.IssueAction(_selected, selected);
+        ActionIssuer.IssueAttack(_selected, selected);
         Deselect();
     }
 }

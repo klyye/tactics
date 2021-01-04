@@ -165,4 +165,11 @@ public class LevelGrid : MonoBehaviour
         var vec3 = _tilemap.WorldToCell(position);
         return new Vector2Int(vec3.x, vec3.y);
     }
+
+    public void HighlightTile(Vector2Int coord)
+    {
+        var pos = coord.ToVector3Int();
+        _tilemap.SetTileFlags(pos, TileFlags.None);
+        _tilemap.SetColor(pos, Color.gray);
+    }
 }

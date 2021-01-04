@@ -13,7 +13,7 @@ public static class ActionIssuer
     /// </summary>
     /// <param name="doer">the thing doing the moving</param>
     /// <param name="target">the place to move to</param>
-    public static void IssueAction(Selectable doer, Vector2Int target)
+    public static void IssueMove(Selectable doer, Vector2Int target)
     {
         var mover = doer.GetComponent<Mover>();
         var valid = mover && !mover.locked && tm.inst.currentPlayer.units.Contains(doer);
@@ -29,7 +29,7 @@ public static class ActionIssuer
     /// </summary>
     /// <param name="doer">The attacker.</param>
     /// <param name="target">The attackee.</param>
-    public static void IssueAction(Selectable doer, Selectable target)
+    public static void IssueAttack(Selectable doer, Selectable target)
     {
         var doercrds = gm.grid.PositionToCoord(doer.transform.position);
         var targetcrds = gm.grid.PositionToCoord(target.transform.position);
