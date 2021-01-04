@@ -574,6 +574,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 451ffe0f3eb43f643915016f6bab9111, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackKey: 97
+  moveKey: 109
 --- !u!4 &1270752630
 Transform:
   m_ObjectHideFlags: 0
@@ -951,6 +953,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 07736daeed5da88409896c4132eedfbc, type: 2}
   - {fileID: 11400000, guid: 1c189e9ae21377f488a20e97494814b7, type: 2}
   - {fileID: 11400000, guid: c124df269ab8c99408735fb3e85fbe3b, type: 2}
+  _highlight: {r: 0, g: 1, b: 0, a: 1}
 --- !u!1 &1941664238
 GameObject:
   m_ObjectHideFlags: 0
