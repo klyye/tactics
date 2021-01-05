@@ -24,7 +24,7 @@ public class HealthBars : MonoBehaviour
     public static HealthBars inst;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         _sliders = new Dictionary<Defender, Slider>();
         inst = this;

@@ -18,7 +18,7 @@ public class Mover : MonoBehaviour
     {
         locked = false;
         _actor = GetComponent<Actor>();
-        tm.inst.OnNextTurn += () => locked = false;
+        tm.OnNextTurn += () => locked = false;
         gm.grid.Occupy(coords);
     }
 

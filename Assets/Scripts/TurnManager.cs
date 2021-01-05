@@ -6,35 +6,30 @@ using gm = GameManager;
 /// <summary>
 ///     Handles the passage of turns and whose turn it is.
 /// </summary>
-public sealed class TurnManager
+public sealed class TurnManager : MonoBehaviour
 {
-    private readonly IList<Player> _players;
-    private int _turn;
+    private static IList<Player> _players;
+    private static int _turn;
 
-    private TurnManager()
+    private void Awake()
     {
         _turn = 0;
         _players = new List<Player>();
     }
 
     /// <summary>
-    ///     The singleton instance of this class.
-    /// </summary>
-    public static TurnManager inst { get; } = new TurnManager();
-
-    /// <summary>
     ///     The player that is currently playing out their turn.
     /// </summary>
-    public Player currentPlayer => _players[_turn % _players.Count];
+    public static Player currentPlayer => _players[_turn % _players.Count];
 
-    public event Action OnNextTurn;
+    public static event Action OnNextTurn;
 
     /// <summary>
     ///     Adds a player to the list of players taking turns.
     /// </summary>
     /// <param name="player">The player to add.</param>
     /// <param name="index">Where that player falls in the turn order.</param>
-    public void AddPlayer(Player player, int index)
+    public static void AddPlayer(Player player, int index)
     {
         _players.Insert(index, player);
     }
@@ -42,7 +37,7 @@ public sealed class TurnManager
     /// <summary>
     ///     Go to the next turn.
     /// </summary>
-    public void AdvanceTurn()
+    public static void AdvanceTurn()
     {
         _turn++;
         Debug.Log($"Turn {_turn}: Player {currentPlayer.name} is in control.");

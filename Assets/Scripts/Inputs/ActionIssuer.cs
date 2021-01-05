@@ -16,7 +16,7 @@ public static class ActionIssuer
     public static void IssueMove(Selectable doer, Vector2Int target)
     {
         var mover = doer.GetComponent<Mover>();
-        var valid = mover && !mover.locked && tm.inst.currentPlayer.units.Contains(doer);
+        var valid = mover && !mover.locked && tm.currentPlayer.units.Contains(doer);
         if (!valid) return;
         var start = gm.grid.PositionToCoord(mover.transform.position);
         var path = Pathfinder.ShortestPath(start, target, doer.actor.actionPoints);
@@ -35,7 +35,7 @@ public static class ActionIssuer
         var targetcrds = gm.grid.PositionToCoord(target.transform.position);
         var atker = doer.GetComponent<Attacker>();
         var defnder = target.GetComponent<Defender>();
-        var valid = tm.inst.currentPlayer.units.Contains(doer) && atker && defnder &&
+        var valid = tm.currentPlayer.units.Contains(doer) && atker && defnder &&
                     Vector2Int.Distance(doercrds, targetcrds) < atker.atkRange;
         if (!valid) return;
         atker.Attack(defnder);

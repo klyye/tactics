@@ -22,6 +22,6 @@ public class Actor : MonoBehaviour
     private void Start()
     {
         actionPoints = _maxPoints;
-        tm.inst.OnNextTurn += () => actionPoints = _maxPoints;
+        tm.OnNextTurn += () => actionPoints = _maxPoints;
     }
 }
