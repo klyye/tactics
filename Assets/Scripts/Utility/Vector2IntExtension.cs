@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -29,5 +30,16 @@ public static class Vector2IntExtension
     public static Vector3Int ToVector3Int(this Vector2Int vec)
     {
         return new Vector3Int(vec.x, vec.y, 0);
+    }
+
+    /// <summary>
+    ///     Calculates the Manhattan Distance (aka Taxicab distance) from one Vector2Int to another.
+    /// </summary>
+    /// <param name="vec">One of the vectors to find the distance between.</param>
+    /// <param name="other">The other vector to find the distance between.</param>
+    /// <returns>The Manhattan Distance between two points.</returns>
+    public static int ManhattanDist(this Vector2Int vec, Vector2Int other)
+    {
+        return Math.Abs(vec.x - other.x) + Math.Abs(vec.y - other.y);
     }
 }

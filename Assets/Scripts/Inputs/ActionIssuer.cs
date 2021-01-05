@@ -35,8 +35,9 @@ public static class ActionIssuer
         var targetcrds = gm.grid.PositionToCoord(target.transform.position);
         var atker = doer.GetComponent<Attacker>();
         var defnder = target.GetComponent<Defender>();
+        // am i supposed to check range here, or in the attack function? Hmm....
         var valid = tm.currentPlayer.units.Contains(doer) && atker && defnder &&
-                    Vector2Int.Distance(doercrds, targetcrds) < atker.atkRange;
+                    doercrds.ManhattanDist(targetcrds) < atker.atkRange;
         if (!valid) return;
         atker.Attack(defnder);
     }

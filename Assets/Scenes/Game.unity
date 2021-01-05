@@ -408,7 +408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5353501cc181f7f41ab5acd54dfff2af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHp: 5
+  _maxHp: 10
 --- !u!114 &950207010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -421,7 +421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45032891f773be840b55b61fcac87e21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _atkRange: 5
+  _atkRange: 2
   atkCost: 5
   damage: 1
 --- !u!114 &950207011
@@ -635,7 +635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5353501cc181f7f41ab5acd54dfff2af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHp: 5
+  _maxHp: 10
 --- !u!114 &1076927373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -648,7 +648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45032891f773be840b55b61fcac87e21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _atkRange: 5
+  _atkRange: 2
   atkCost: 5
   damage: 1
 --- !u!114 &1076927374

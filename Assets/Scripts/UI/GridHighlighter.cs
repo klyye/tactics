@@ -47,7 +47,7 @@ public class GridHighlighter : MonoBehaviour
             var point = new Vector2Int(x, y);
             if (gm.grid.WithinBounds(point))
             {
-                var col = Vector2Int.Distance(center, point) < radius ? highlight : Color.white;
+                var col = center.ManhattanDist(point) < radius ? highlight : Color.white;
                 gm.grid.SetTileColor(point, col);
             }
         }
