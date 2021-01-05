@@ -1,6 +1,7 @@
 using UnityEngine;
 using gm = GameManager;
 using tm = TurnManager;
+using im = InputManager;
 
 /// <summary>
 ///     Something you can click on which tells the InputManager that it was selected.
@@ -19,6 +20,6 @@ public class Selectable : MonoBehaviour
     
     private void OnMouseUpAsButton()
     {
-        gm.inputMan.Select(this);
+        im.Select(this);
     }
 }

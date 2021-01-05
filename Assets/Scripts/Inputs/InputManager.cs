@@ -21,14 +21,14 @@ public class InputManager : MonoBehaviour
     /// <summary>
     ///     The currently selected Selectable.
     /// </summary>
-    private Selectable _selected;
+    private static Selectable _selected;
 
-    public Selectable selected => _selected;
+    public static Selectable selected => _selected;
 
     /// <summary>
     ///     What action the player wants to issue.
     /// </summary>
-    private ActionState _state;
+    private static ActionState _state;
 
     private void Start()
     {
@@ -65,22 +65,22 @@ public class InputManager : MonoBehaviour
     /// <summary>
     ///     Triggers when the input moves into a state where no action is being performed.
     /// </summary>
-    public event Action OnEnterNoneState;
+    public static event Action OnEnterNoneState;
 
     /// <summary>
     ///     Triggers when the input moves into a state where a move is being performed.
     /// </summary>
-    public event Action OnEnterMoveState;
+    public static event Action OnEnterMoveState;
 
     /// <summary>
     ///     Triggers when the input moves into a state where an attack is being performed.
     /// </summary>
-    public event Action OnEnterAttackState;
+    public static event Action OnEnterAttackState;
 
     /// <summary>
     ///     Clear out the currently selected selectable.
     /// </summary>
-    private void Deselect()
+    private static void Deselect()
     {
         _selected = null;
         OnEnterNoneState?.Invoke();
@@ -91,7 +91,7 @@ public class InputManager : MonoBehaviour
     ///     Select a selectable.
     /// </summary>
     /// <param name="selected">The selectable to be selected.</param>
-    public void Select(Selectable selected)
+    public static void Select(Selectable selected)
     {
         if (_state == ActionState.ATTACK)
         {

@@ -16,11 +16,9 @@ public class GameManager : MonoBehaviour
     ///     The one level grid that all the action is taking place on in this scene!
     /// </summary>
     public static LevelGrid grid;
-    
-    /// <summary>
-    ///     The one input manager that handles all the input in this scene!
-    /// </summary>
-    public static InputManager inputMan;
+
+    private static GameState _state;
+    public static GameState state => _state;
 
     /// <summary>
     ///     TODO: TEMPORARY WAY TO GET PLAYERS INTO THE GAME VIA UNITY INSPECTOR
@@ -31,7 +29,6 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         cam = Camera.main;
-        inputMan = FindObjectOfType<InputManager>();
         grid = FindObjectOfType<LevelGrid>();
         for (var i = 0; i < playerNames.Length; i++)
         {
@@ -42,6 +39,8 @@ public class GameManager : MonoBehaviour
             p.units.Add(i % 2 == 0 ? fireman : waterman);
             tm.inst.AddPlayer(p, i);
         }
+
+        _state = GameState.PRE;
     }
     
     // Update is called once per frame
@@ -52,4 +51,6 @@ public class GameManager : MonoBehaviour
             tm.inst.AdvanceTurn();
         }
     }
+    
+    public enum GameState { PRE, PLAYING, POST}
 }

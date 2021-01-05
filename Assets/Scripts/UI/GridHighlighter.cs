@@ -1,5 +1,6 @@
 using UnityEngine;
 using gm = GameManager;
+using im = InputManager;
 
 /// <summary>
 ///     Tells the LevelGrid which tiles to highlight, and when.
@@ -12,13 +13,13 @@ public class GridHighlighter : MonoBehaviour
     /// </summary>
     public Color highlight;
 
-    private static Selectable selected => gm.inputMan.selected;
+    private static Selectable selected => im.selected;
 
     private void Start()
     {
-        gm.inputMan.OnEnterAttackState += HighlightAttackRange;
-        gm.inputMan.OnEnterMoveState += HighlightMovementRange;
-        gm.inputMan.OnEnterNoneState += ClearHighlights;
+        im.OnEnterAttackState += HighlightAttackRange;
+        im.OnEnterMoveState += HighlightMovementRange;
+        im.OnEnterNoneState += ClearHighlights;
     }
 
     /// <summary>

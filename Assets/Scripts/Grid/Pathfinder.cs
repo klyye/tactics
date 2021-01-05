@@ -71,11 +71,6 @@ public static class Pathfinder
     public static IEnumerable<Vector2Int> ReachablePoints(Vector2Int start, int pathBudget)
     {
         Solve(start, pathBudget);
-        foreach (var pair in _distTo)
-        {
-            Debug.Log($"Distance to {pair.Key}: {pair.Value}");
-        }
-
         return _distTo.Keys;
     }
 
