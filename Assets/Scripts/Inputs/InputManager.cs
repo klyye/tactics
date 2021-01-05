@@ -60,6 +60,8 @@ public class InputManager : MonoBehaviour
                 OnEnterMoveState?.Invoke();
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Space)) tm.AdvanceTurn();
     }
 
     /// <summary>

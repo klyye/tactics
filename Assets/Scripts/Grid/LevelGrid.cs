@@ -46,7 +46,7 @@ public class LevelGrid : MonoBehaviour
         {
             _occupied[x, y] = false;
             var roll = Rand.value;
-            if (roll > 0.75 || y == height - 1)
+            if (roll > 0.75)
                 _grid[x, y] = walkables[Rand.Range(0, walkables.Length)];
             else
                 _grid[x, y] = _terrains[Rand.Range(0, _terrains.Length)];

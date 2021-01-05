@@ -32,10 +32,4 @@ public class GameManager : MonoBehaviour
         grid = FindObjectOfType<LevelGrid>();
         state = GameState.PRE;
     }
-
-    // Update is called once per frame
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space)) tm.AdvanceTurn();
-    }
 }
