@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using gm = GameManager;
 using tm = TurnManager;
+using pm = PlayerManager;
 
 /// <summary>
 ///     Turns user inputs into issued actions.
@@ -38,6 +39,29 @@ public class InputManager : MonoBehaviour
 
     // Update is called once per frame
     private void Update()
+    {
+        switch (gm.state)
+        {
+            case gm.GameState.PLAYING:
+                HandleInputPlaying();
+                break;
+            case gm.GameState.PRE:
+                HandleInputPre();
+                break;
+        }
+    }
+
+    private void HandleInputPre()
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            var mouseWorldPos = gm.cam.ScreenToWorldPoint(Input.mousePosition);
+            var dest = gm.grid.PositionToCoord(mouseWorldPos);
+            pm.SpawnAndAddNext(dest);
+        }
+    }
+
+    private void HandleInputPlaying()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0) && _state == ActionState.MOVE)
         {

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using tm = TurnManager;
+using pm = PlayerManager;
 
 /// <summary>
 ///     ??? does anything that i want it to.
@@ -31,5 +32,6 @@ public class GameManager : MonoBehaviour
         cam = Camera.main;
         grid = FindObjectOfType<LevelGrid>();
         state = GameState.PRE;
+        pm.OnAllUnitsPlaced += () => state = GameState.PLAYING;
     }
 }
