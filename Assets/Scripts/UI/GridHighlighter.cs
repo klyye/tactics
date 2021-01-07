@@ -17,8 +17,16 @@ public class GridHighlighter : MonoBehaviour
 
     private void Start()
     {
-        im.OnEnterAttackState += HighlightAttackRange;
-        im.OnEnterMoveState += HighlightMovementRange;
+        im.OnEnterAttackState += () =>
+        {
+            ClearHighlights();
+            HighlightAttackRange();
+        };
+        im.OnEnterMoveState += () =>
+        {
+            ClearHighlights();
+            HighlightMovementRange();
+        };
         im.OnEnterNoneState += ClearHighlights;
     }
 
