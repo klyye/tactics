@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,9 +6,9 @@ using gm = GameManager;
 public class HealthBars : MonoBehaviour
 {
     /// <summary>
-    ///     Maps each defender to the health bar that is supposed to follow them.
+    ///     There should only be one instance of HealthBars. This is that instance.
     /// </summary>
-    private IDictionary<Defender, Slider> _sliders;
+    public static HealthBars inst;
 
     [SerializeField] private Slider _healthBarPrefab;
 
@@ -19,19 +18,19 @@ public class HealthBars : MonoBehaviour
     [SerializeField] private Vector3 _offset;
 
     /// <summary>
-    ///     There should only be one instance of HealthBars. This is that instance.
+    ///     Maps each defender to the health bar that is supposed to follow them.
     /// </summary>
-    public static HealthBars inst;
+    private IDictionary<Defender, Slider> _sliders;
 
     // Start is called before the first frame update
-    void Awake()
+    private void Awake()
     {
         _sliders = new Dictionary<Defender, Slider>();
         inst = this;
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         foreach (var pair in _sliders)
         {
@@ -49,7 +48,9 @@ public class HealthBars : MonoBehaviour
     /// <param name="def">The defender to add.</param>
     public void AddDefender(Defender def)
     {
-        var bar = Instantiate(_healthBarPrefab, transform);
+        var bar = Instantiate(_healthBarPrefab,
+            gm.cam.WorldToScreenPoint(def.transform.position), Quaternion.identity);
+        bar.transform.SetParent(transform, false);
         _sliders.Add(def, bar);
         def.OnDeath += () =>
         {

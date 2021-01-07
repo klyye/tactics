@@ -10,6 +10,11 @@ using pm = PlayerManager;
 public class InputManager : MonoBehaviour
 {
     /// <summary>
+    ///     What action the player wants to issue.
+    /// </summary>
+    private static ActionState _state;
+
+    /// <summary>
     ///     The key to press to issue an attack.
     /// </summary>
     public KeyCode attackKey;
@@ -22,14 +27,7 @@ public class InputManager : MonoBehaviour
     /// <summary>
     ///     The currently selected Selectable.
     /// </summary>
-    private static Selectable _selected;
-
-    public static Selectable selected => _selected;
-
-    /// <summary>
-    ///     What action the player wants to issue.
-    /// </summary>
-    private static ActionState _state;
+    public static Selectable selected { get; private set; }
 
     private void Start()
     {
@@ -42,10 +40,10 @@ public class InputManager : MonoBehaviour
     {
         switch (gm.state)
         {
-            case gm.GameState.PLAYING:
+            case GameManager.GameState.PLAYING:
                 HandleInputPlaying();
                 break;
-            case gm.GameState.PRE:
+            case GameManager.GameState.PRE:
                 HandleInputPre();
                 break;
         }
@@ -67,11 +65,11 @@ public class InputManager : MonoBehaviour
         {
             var mouseWorldPos = gm.cam.ScreenToWorldPoint(Input.mousePosition);
             var dest = gm.grid.PositionToCoord(mouseWorldPos);
-            ActionIssuer.IssueMove(_selected, dest);
+            ActionIssuer.IssueMove(selected, dest);
             Deselect();
         }
 
-        if (_selected)
+        if (selected)
         {
             if (Input.GetKeyDown(attackKey))
             {
@@ -108,7 +106,7 @@ public class InputManager : MonoBehaviour
     /// </summary>
     private static void Deselect()
     {
-        _selected = null;
+        selected = null;
         OnEnterNoneState?.Invoke();
         _state = ActionState.NONE;
     }
@@ -122,12 +120,12 @@ public class InputManager : MonoBehaviour
         if (_state == ActionState.ATTACK)
         {
             // selecting another unit after a unit is already selected counts as an attack
-            ActionIssuer.IssueAttack(_selected, selected);
+            ActionIssuer.IssueAttack(InputManager.selected, selected);
             Deselect();
         }
         else
         {
-            _selected = selected;
+            InputManager.selected = selected;
         }
     }
 

@@ -38,7 +38,6 @@ public class Defender : MonoBehaviour
     public void TakeDamage(int dmg)
     {
         _hp -= dmg;
-        Debug.Log($"Ow! {name} took {dmg} damage and has {_hp} hp left!");
         if (_hp <= 0) Die();
     }
 

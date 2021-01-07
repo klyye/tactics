@@ -18,7 +18,11 @@ public class PlayerManager : MonoBehaviour
     private static int unitsPerPlayer;
 
     private static IEnumerator<Selectable> _unitToSpawn;
-    public static Selectable unitToSpawn => _unitToSpawn.Current;
+
+    /// <summary>
+    ///     Null if there is no winner, otherwise the current winner.
+    /// </summary>
+    public static Player winner;
 
     [SerializeField] private string[] _playerNames;
 
@@ -33,15 +37,12 @@ public class PlayerManager : MonoBehaviour
     /// </summary>
     [SerializeField] private Selectable[] _playerUnits;
 
+    public static Selectable unitToSpawn => _unitToSpawn.Current;
+
     /// <summary>
     ///     The player that is currently placing units, pre-game.
     /// </summary>
     public static Player currPlacingPlayer => players[_currSpawningUnit / unitsPerPlayer];
-
-    /// <summary>
-    ///     Null if there is no winner, otherwise the current winner.
-    /// </summary>
-    public static Player winner;
 
     // Start is called before the first frame update
     private void Start()
@@ -58,7 +59,7 @@ public class PlayerManager : MonoBehaviour
         for (var i = 0; i < _playerNames.Length; i++) players.Add(new Player(_playerNames[i]));
         tm.OnNextTurn += () =>
         {
-            if (gm.state == gm.GameState.PLAYING && players.Count(p => p.alive) == 1)
+            if (gm.state == GameManager.GameState.PLAYING && players.Count(p => p.alive) == 1)
             {
                 winner = players.Find(p => p.alive);
                 OnOnePlayerRemaining?.Invoke();
@@ -86,6 +87,7 @@ public class PlayerManager : MonoBehaviour
         var spawnPoint = gm.grid.CoordToPosition(spawnCoords);
         if (!unitToSpawn) return;
         var spawned = Instantiate(unitToSpawn, spawnPoint, Quaternion.identity);
+        spawned.name = unitToSpawn.name;
         _unitToSpawn.MoveNext();
         currPlacingPlayer.AddUnit(spawned);
         _currSpawningUnit++;

@@ -18,7 +18,6 @@ public class BasicAttacker : Attacker
     {
         if (_actor.actionPoints < atkCost) return;
         _actor.actionPoints -= atkCost;
-        Debug.Log($"{name} has {_actor.actionPoints} action points left.");
         target.TakeDamage(damage);
     }
 }

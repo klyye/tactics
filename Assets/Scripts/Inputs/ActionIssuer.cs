@@ -37,7 +37,7 @@ public static class ActionIssuer
         var defnder = target.GetComponent<Defender>();
         // am i supposed to check range here, or in the attack function? Hmm....
         var valid = tm.currentPlayer.Controls(doer) && atker && defnder &&
-                    doercrds.ManhattanDist(targetcrds) < atker.atkRange; 
+                    doercrds.ManhattanDist(targetcrds) < atker.atkRange;
         if (!valid) return;
         atker.Attack(defnder);
     }

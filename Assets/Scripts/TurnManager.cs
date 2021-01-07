@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using UnityEngine;
 using gm = GameManager;
 using pm = PlayerManager;
@@ -9,17 +8,17 @@ using pm = PlayerManager;
 /// </summary>
 public sealed class TurnManager : MonoBehaviour
 {
-    private static int _turn;
-
-    private void Awake()
-    {
-        _turn = 0;
-    }
+    public static int turn { get; private set; }
 
     /// <summary>
     ///     The player that is currently playing out their turn.
     /// </summary>
-    public static Player currentPlayer => pm.players[_turn % pm.players.Count];
+    public static Player currentPlayer => pm.players[turn % pm.players.Count];
+
+    private void Awake()
+    {
+        turn = 0;
+    }
 
     public static event Action OnNextTurn;
 
@@ -28,8 +27,7 @@ public sealed class TurnManager : MonoBehaviour
     /// </summary>
     public static void AdvanceTurn()
     {
-        _turn++;
-        Debug.Log($"Turn {_turn}: Player {currentPlayer.name} is in control.");
+        turn++;
         OnNextTurn?.Invoke();
     }
 }

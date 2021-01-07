@@ -17,7 +17,7 @@ public class Selectable : MonoBehaviour
     {
         actor = GetComponent<Actor>();
     }
-    
+
     private void OnMouseUpAsButton()
     {
         im.Select(this);
