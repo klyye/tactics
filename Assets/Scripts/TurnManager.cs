@@ -19,7 +19,7 @@ public sealed class TurnManager : MonoBehaviour
     /// <summary>
     ///     The player that is currently playing out their turn.
     /// </summary>
-    public static Player currentPlayer => pm.players[_turn % pm.players.Length];
+    public static Player currentPlayer => pm.players[_turn % pm.players.Count];
 
     public static event Action OnNextTurn;
 

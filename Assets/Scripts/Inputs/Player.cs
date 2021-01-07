@@ -15,7 +15,12 @@ public class Player
     /// <summary>
     ///     A set of all the Selectables that this Player controls.
     /// </summary>
-    public readonly ISet<Selectable> units;
+    private readonly ISet<Selectable> _units;
+
+    /// <summary>
+    ///     Does this player still have units in the game?
+    /// </summary>
+    public bool alive => _units.Count > 0;
 
     /// <summary>
     ///     The name of the player.
@@ -25,6 +30,21 @@ public class Player
     public Player(string n)
     {
         name = n;
-        units = new HashSet<Selectable>();
+        _units = new HashSet<Selectable>();
+    }
+
+    public bool Controls(Selectable unit)
+    {
+        return _units.Contains(unit);
+    }
+
+    public void AddUnit(Selectable unit)
+    {
+        var def = unit.GetComponent<Defender>();
+        if (def)
+        {
+            def.OnDeath += () => _units.Remove(unit);
+        }
+        _units.Add(unit);
     }
 }

@@ -33,5 +33,6 @@ public class GameManager : MonoBehaviour
         grid = FindObjectOfType<LevelGrid>();
         state = GameState.PRE;
         pm.OnAllUnitsPlaced += () => state = GameState.PLAYING;
+        pm.OnOnePlayerRemaining += () => state = GameState.POST;
     }
 }

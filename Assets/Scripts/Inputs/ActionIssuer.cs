@@ -16,7 +16,7 @@ public static class ActionIssuer
     public static void IssueMove(Selectable doer, Vector2Int target)
     {
         var mover = doer.GetComponent<Mover>();
-        var valid = mover && !mover.locked && tm.currentPlayer.units.Contains(doer);
+        var valid = mover && !mover.locked && tm.currentPlayer.Controls(doer);
         if (!valid) return;
         var start = gm.grid.PositionToCoord(mover.transform.position);
         var path = Pathfinder.ShortestPath(start, target, doer.actor.actionPoints);
@@ -36,7 +36,7 @@ public static class ActionIssuer
         var atker = doer.GetComponent<Attacker>();
         var defnder = target.GetComponent<Defender>();
         // am i supposed to check range here, or in the attack function? Hmm....
-        var valid = tm.currentPlayer.units.Contains(doer) && atker && defnder &&
+        var valid = tm.currentPlayer.Controls(doer) && atker && defnder &&
                     doercrds.ManhattanDist(targetcrds) < atker.atkRange; 
         if (!valid) return;
         atker.Attack(defnder);
