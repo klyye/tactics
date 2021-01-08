@@ -13,7 +13,9 @@ public sealed class TurnManager : MonoBehaviour
     /// <summary>
     ///     The player that is currently playing out their turn.
     /// </summary>
-    public static Player currentPlayer => pm.players[turn % pm.players.Count];
+    public static Player currentPlayer => gm.state == gm.GameState.PRE
+        ? pm.currPlacingPlayer
+        : pm.players[turn % pm.players.Count];
 
     private void Awake()
     {

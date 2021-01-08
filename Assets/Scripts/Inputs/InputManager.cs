@@ -40,16 +40,26 @@ public class InputManager : MonoBehaviour
     {
         switch (gm.state)
         {
-            case GameManager.GameState.PLAYING:
-                HandleInputPlaying();
+            case gm.GameState.PLAYING:
+                if (tm.currentPlayer.isAI)
+                    AI.PlayTurn();
+                else
+                    HandleInputPlaying();
                 break;
-            case GameManager.GameState.PRE:
-                HandleInputPre();
+            case gm.GameState.PRE:
+                if (tm.currentPlayer.isAI)
+                    AI.PlaceUnit();
+                else
+                    HandleInputPre();
                 break;
+            case gm.GameState.POST:
+                break;
+            default:
+                throw new ArgumentOutOfRangeException();
         }
     }
 
-    private void HandleInputPre()
+    private static void HandleInputPre()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
@@ -65,7 +75,7 @@ public class InputManager : MonoBehaviour
         {
             var mouseWorldPos = gm.cam.ScreenToWorldPoint(Input.mousePosition);
             var dest = gm.grid.PositionToCoord(mouseWorldPos);
-            ActionIssuer.IssueMove(selected, dest);
+            ActionIssuer.IssueMove(selected.actor, dest);
             Deselect();
         }
 
@@ -114,18 +124,18 @@ public class InputManager : MonoBehaviour
     /// <summary>
     ///     Select a selectable.
     /// </summary>
-    /// <param name="selected">The selectable to be selected.</param>
-    public static void Select(Selectable selected)
+    /// <param name="clicked">The selectable to be selected.</param>
+    public static void Select(Selectable clicked)
     {
         if (_state == ActionState.ATTACK)
         {
             // selecting another unit after a unit is already selected counts as an attack
-            ActionIssuer.IssueAttack(InputManager.selected, selected);
+            ActionIssuer.IssueAttack(selected.actor, clicked);
             Deselect();
         }
         else
         {
-            InputManager.selected = selected;
+            selected = clicked;
         }
     }
 

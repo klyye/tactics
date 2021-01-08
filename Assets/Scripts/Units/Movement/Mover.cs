@@ -10,15 +10,12 @@ public class Mover : MonoBehaviour
     [SerializeField] private float waitTime;
     [SerializeField] private float speed;
     private Actor _actor;
-    public bool locked { get; private set; }
 
     public Vector2Int coords => gm.grid.PositionToCoord(transform.position);
 
     private void Start()
     {
-        locked = false;
         _actor = GetComponent<Actor>();
-        tm.OnNextTurn += () => locked = false;
         gm.grid.Occupy(coords);
     }
 
@@ -31,9 +28,9 @@ public class Mover : MonoBehaviour
     public void MoveAlong(Path path)
     {
         if (_actor.actionPoints < path.cost) return;
+        _actor.locked = true;
         transform.position = gm.grid.CoordToPosition(path.start);
         _actor.actionPoints -= path.cost;
-        Debug.Log($"{name} has {_actor.actionPoints} action points left.");
         gm.grid.Unoccupy(path.start);
         gm.grid.Occupy(path.end);
         StartCoroutine(FollowPath(path.coords));
@@ -41,7 +38,6 @@ public class Mover : MonoBehaviour
 
     private IEnumerator FollowPath(IEnumerable<Vector2Int> path)
     {
-        locked = true;
         foreach (var coord in path)
         {
             var next = gm.grid.CoordToPosition(coord);
@@ -55,6 +51,6 @@ public class Mover : MonoBehaviour
             yield return new WaitForSeconds(waitTime);
         }
 
-        locked = false;
+        _actor.locked = false;
     }
 }

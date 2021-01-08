@@ -28,9 +28,12 @@ public class GameStateText : MonoBehaviour
                 break;
             case GameManager.GameState.PLAYING:
                 var sel = im.selected;
-                _text.text = sel
-                    ? $"{sel.name} has {sel.actor.actionPoints} action points left"
-                    : $"{tm.currentPlayer.name}, click to select a unit";
+                if (sel)
+                    _text.text = $"{sel.name} has {sel.actor.actionPoints} action points left";
+                else
+                    _text.text = tm.currentPlayer.isAI
+                        ? "AI thinking..."
+                        : $"{tm.currentPlayer.name}, click to select a unit";
                 break;
             case GameManager.GameState.POST:
                 _text.text = $"Game Over, {pm.winner.name} wins";

@@ -69,7 +69,7 @@ public class GridHighlighter : MonoBehaviour
         var mover = selected.GetComponent<Mover>();
         if (!mover) return;
         var start = gm.grid.PositionToCoord(selected.transform.position);
-        var actor = selected.GetComponent<Actor>();
+        var actor = selected.actor;
         foreach (var coord in Pathfinder.ReachablePoints(start, actor.actionPoints))
             gm.grid.SetTileColor(coord, highlight);
     }

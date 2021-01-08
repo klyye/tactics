@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 47521367}
   - component: {fileID: 47521366}
   - component: {fileID: 47521365}
+  - component: {fileID: 47521369}
   m_Layer: 0
   m_Name: May I Speak To The Manager
   m_TagString: Untagged
@@ -221,15 +222,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 694534117401cdc47b02c60f115a383e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerNames:
-  - player zero
-  - player one
   _unitsPerPlayer: 2
   _playerUnits:
   - {fileID: 510706548559129337, guid: 4a81a850ff20c5a40aacc6d88e4395be, type: 3}
   - {fileID: 2473993295866859914, guid: d0ad4751a1b22554eba74f75456f2418, type: 3}
   - {fileID: 72429033337618013, guid: 1ca83ccc7503d5b428e615574fa576a6, type: 3}
   - {fileID: 8579516781791211533, guid: 042b633d0b22a8245bfa46d964ea334c, type: 3}
+--- !u!114 &47521369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47521362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfa0b6c1a5e407191f08af14743e5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

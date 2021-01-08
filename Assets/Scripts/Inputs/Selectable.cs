@@ -13,7 +13,7 @@ public class Selectable : MonoBehaviour
     public Actor actor { get; private set; }
 
     // Start is called before the first frame update
-    private void Start()
+    private void Awake()
     {
         actor = GetComponent<Actor>();
     }

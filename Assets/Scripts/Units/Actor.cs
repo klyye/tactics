@@ -13,6 +13,8 @@ public class Actor : MonoBehaviour
     ///     The points that this actor has left to spend on actions this turn.
     /// </summary>
     [HideInInspector] public int actionPoints;
+
+    public bool locked;
     
     /// <summary>
     ///     The total number of action points that this actor gets access to on each turn.
@@ -23,5 +25,6 @@ public class Actor : MonoBehaviour
     {
         actionPoints = _maxPoints;
         tm.OnNextTurn += () => actionPoints = _maxPoints;
+        locked = false;
     }
 }

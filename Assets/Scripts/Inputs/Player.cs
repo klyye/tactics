@@ -1,4 +1,7 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
 
 /// <summary>
 ///     Something (either a human or an AI) that can issue actions to the game.
@@ -8,7 +11,7 @@ public class Player
     /// <summary>
     ///     A set of all the Selectables that this Player controls.
     /// </summary>
-    private readonly ISet<Selectable> _units;
+    private readonly ISet<Actor> _units;
 
     /// <summary>
     ///     The name of the player.
@@ -18,12 +21,13 @@ public class Player
     /// <summary>
     ///     Is this player a computer-controlled AI?
     /// </summary>
-    private bool isAI;
+    public readonly bool isAI;
 
-    public Player(string n)
+    public Player(string n, bool isComputer)
     {
+        isAI = isComputer;
         name = n;
-        _units = new HashSet<Selectable>();
+        _units = new HashSet<Actor>();
     }
 
     /// <summary>
@@ -31,7 +35,7 @@ public class Player
     /// </summary>
     public bool alive => _units.Count > 0;
 
-    public bool Controls(Selectable unit)
+    public bool Controls(Actor unit)
     {
         return _units.Contains(unit);
     }
@@ -39,7 +43,10 @@ public class Player
     public void AddUnit(Selectable unit)
     {
         var def = unit.GetComponent<Defender>();
-        if (def) def.OnDeath += () => _units.Remove(unit);
-        _units.Add(unit);
+        var actor = unit.actor;
+        if (def) def.OnDeath += () => _units.Remove(actor);
+        _units.Add(actor);
     }
+
+    public IEnumerable<Actor> units => _units;
 }

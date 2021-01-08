@@ -24,8 +24,6 @@ public class PlayerManager : MonoBehaviour
     /// </summary>
     public static Player winner;
 
-    [SerializeField] private string[] _playerNames;
-
     /// <summary>
     ///     The amount of units each player can have.
     ///     todo maybe i can change this to a different amount per player later?
@@ -47,16 +45,15 @@ public class PlayerManager : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        if (_playerUnits.Length != _unitsPerPlayer * _playerNames.Length)
+        players = MainMenuData.players;
+        if (_playerUnits.Length != _unitsPerPlayer * players.Count)
             throw new ArgumentException(
                 "The amount of units in _playerUnits doesn't match the number in _unitsPerPlayer!");
-        players = new List<Player>();
         _currSpawningUnit = 0;
         unitsPerPlayer = _unitsPerPlayer;
         _unitToSpawn = _playerUnits.AsEnumerable().GetEnumerator();
         _unitToSpawn.MoveNext();
         winner = null;
-        for (var i = 0; i < _playerNames.Length; i++) players.Add(new Player(_playerNames[i]));
         tm.OnNextTurn += () =>
         {
             if (gm.state == GameManager.GameState.PLAYING && players.Count(p => p.alive) == 1)
