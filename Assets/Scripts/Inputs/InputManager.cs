@@ -38,29 +38,27 @@ public class InputManager : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape)) PauseMenu.TogglePause();
+        if (PauseMenu.paused) return;
+
         switch (gm.state)
         {
-            case gm.GameState.PLAYING:
+            case GameManager.GameState.PLAYING:
                 if (tm.currentPlayer.isAI)
                     AI.PlayTurn();
                 else
                     HandleInputPlaying();
                 break;
-            case gm.GameState.PRE:
+            case GameManager.GameState.PRE:
                 if (tm.currentPlayer.isAI)
                     AI.PlaceUnit();
                 else
                     HandleInputPre();
                 break;
-            case gm.GameState.POST:
+            case GameManager.GameState.POST:
                 break;
             default:
                 throw new ArgumentOutOfRangeException();
-        }
-
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            PauseMenu.TogglePause();
         }
     }
 
