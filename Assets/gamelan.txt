@@ -22,3 +22,9 @@
 
 4. Save/load the game
 - gonna do it right now follow the tutorial lmao
+- toggled from pause menu
+
+------------------------------------------------------------------------------------------------------------------------
+TODO
+Pause Menu
+Add buttons to quit, save, and load in pause and main menu

@@ -57,6 +57,11 @@ public class InputManager : MonoBehaviour
             default:
                 throw new ArgumentOutOfRangeException();
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            PauseMenu.TogglePause();
+        }
     }
 
     private static void HandleInputPre()
