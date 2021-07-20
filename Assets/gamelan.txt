@@ -1,0 +1,24 @@
+﻿FEATURES:
+1. Levels with different objectives like Fire Emblem
+2. Enemy AI that's fun to play against
+3. Story???
+4. Save/load the game???
+
+------------------------------------------------------------------------------------------------------------------------
+
+1. Levels with different objectives like Fire Emblem
+- Each level is a scene
+- Load next level after you finish this one
+
+2. Enemy AI that's fun to play against
+- Create a heuristic based on objective
+- AI picks the best move when sorting all possible moves by heuristic score
+
+3. Story — written by R. Zhang
+- Humans can summon elementals
+- Pirate is the protagonist, Granny is the bad guy
+- Light Elementals are the bad guys, everyone else is trying to fight them
+- Light Elementals brainwash other elementals so the enemy has multiple elements
+
+4. Save/load the game
+- gonna do it right now follow the tutorial lmao

@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 using tm = TurnManager;
 using pm = PlayerManager;
 
@@ -7,6 +10,8 @@ using pm = PlayerManager;
 /// </summary>
 public class GameManager : MonoBehaviour
 {
+    public const string SAVE_PATH = "/save";
+        
     public enum GameState
     {
         PRE,
@@ -34,5 +39,23 @@ public class GameManager : MonoBehaviour
         state = GameState.PRE;
         pm.OnAllUnitsPlaced += () => state = GameState.PLAYING;
         pm.OnOnePlayerRemaining += () => state = GameState.POST;
+    }
+
+    public void SaveState()
+    {
+        var save = new Save(SceneManager.GetActiveScene().buildIndex);
+        var bf = new BinaryFormatter();
+        var file = File.Create(Application.persistentDataPath + SAVE_PATH);
+        bf.Serialize(file, save);
+        file.Close();
+    }
+
+    public void LoadState()
+    {
+        var bf = new BinaryFormatter();
+        var file = File.Open(Application.persistentDataPath + SAVE_PATH, FileMode.Open);
+        var save = (Save)bf.Deserialize(file);
+        file.Close();
+        SceneManager.LoadScene(save.currLevel);
     }
 }
