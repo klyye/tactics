@@ -27,6 +27,9 @@
 ------------------------------------------------------------------------------------------------------------------------
 TODO
 Pause Menu
-Add buttons to quit, save, and load in pause and main menu
 maybe decouple pause behavior from pause menu?
 maybe use events?
+
+Board State
+Needed for minimax, save/load
+Need a way to transition between board states

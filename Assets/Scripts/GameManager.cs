@@ -44,18 +44,20 @@ public class GameManager : MonoBehaviour
     public void SaveState()
     {
         var save = new Save(SceneManager.GetActiveScene().buildIndex);
-        var bf = new BinaryFormatter();
-        var file = File.Create(Application.persistentDataPath + SAVE_PATH);
-        bf.Serialize(file, save);
-        file.Close();
+        var json = JsonUtility.ToJson(save, true);
+        File.WriteAllText(Application.persistentDataPath + SAVE_PATH, json);
     }
 
     public void LoadState()
     {
-        var bf = new BinaryFormatter();
-        var file = File.Open(Application.persistentDataPath + SAVE_PATH, FileMode.Open);
-        var save = (Save)bf.Deserialize(file);
-        file.Close();
+        var json = File.ReadAllText(Application.persistentDataPath + SAVE_PATH);
+        var save = (Save)JsonUtility.FromJson(json, typeof(Save));
         SceneManager.LoadScene(save.currLevel);
+        Debug.Log(save.test);
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 }
