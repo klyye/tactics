@@ -33,3 +33,11 @@ maybe use events?
 Board State
 Needed for minimax, save/load
 Need a way to transition between board states
+One single Scene for gameplay, and different levels are just stored as different starting board states?
+Would make level editing in script really easy
+Must contain:
+    width and height of grid
+    2d array of terrain
+    all units
+    location, hit points, action points of all units
+    turn order, objective for AI

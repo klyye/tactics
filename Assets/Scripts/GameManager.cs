@@ -43,8 +43,8 @@ public class GameManager : MonoBehaviour
 
     public void SaveState()
     {
-        var save = new Save(SceneManager.GetActiveScene().buildIndex);
-        var json = JsonUtility.ToJson(save, true);
+        var state = new BoardState();
+        var json = JsonUtility.ToJson(state, true);
         Debug.Log(Application.persistentDataPath + SAVE_PATH);
         File.WriteAllText(Application.persistentDataPath + SAVE_PATH, json);
     }
@@ -52,8 +52,7 @@ public class GameManager : MonoBehaviour
     public void LoadState()
     {
         var json = File.ReadAllText(Application.persistentDataPath + SAVE_PATH);
-        var save = (Save)JsonUtility.FromJson(json, typeof(Save));
-        SceneManager.LoadScene(save.currLevel);
+        var state = (BoardState)JsonUtility.FromJson(json, typeof(BoardState));
     }
 
     public void Quit()
