@@ -53,7 +53,6 @@ public class GameManager : MonoBehaviour
         var json = File.ReadAllText(Application.persistentDataPath + SAVE_PATH);
         var save = (Save)JsonUtility.FromJson(json, typeof(Save));
         SceneManager.LoadScene(save.currLevel);
-        Debug.Log(save.test);
     }
 
     public void Quit()
