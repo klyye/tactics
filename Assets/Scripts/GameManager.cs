@@ -45,6 +45,7 @@ public class GameManager : MonoBehaviour
     {
         var save = new Save(SceneManager.GetActiveScene().buildIndex);
         var json = JsonUtility.ToJson(save, true);
+        Debug.Log(Application.persistentDataPath + SAVE_PATH);
         File.WriteAllText(Application.persistentDataPath + SAVE_PATH, json);
     }
 
