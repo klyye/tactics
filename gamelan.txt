@@ -37,7 +37,7 @@ One single Scene for gameplay, and different levels are just stored as different
 Would make level editing in script really easy
 Must contain:
     width and height of grid
-    2d array of terrain
+    2d array of terrain (actually 1d because of serialization)
     all units
     location, hit points, action points of all units
     turn order, objective for AI

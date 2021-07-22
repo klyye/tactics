@@ -43,9 +43,10 @@ public class GameManager : MonoBehaviour
 
     public void SaveState()
     {
-        var state = new BoardState();
+        var actor = FindObjectOfType<Actor>();
+        Debug.Log($"Found actor {actor.name}");
+        var state = new BoardState(actor);
         var json = JsonUtility.ToJson(state, true);
-        Debug.Log(Application.persistentDataPath + SAVE_PATH);
         File.WriteAllText(Application.persistentDataPath + SAVE_PATH, json);
     }
 
@@ -53,6 +54,8 @@ public class GameManager : MonoBehaviour
     {
         var json = File.ReadAllText(Application.persistentDataPath + SAVE_PATH);
         var state = (BoardState)JsonUtility.FromJson(json, typeof(BoardState));
+        Instantiate(state.test, Vector3.zero, Quaternion.identity);
+        Debug.Log($"Loaded actor {state.test.name}");
     }
 
     public void Quit()

@@ -10,4 +10,10 @@ public class BoardState
     [SerializeField] private int width = 9;
     [SerializeField] private int height = 11;
     [SerializeField] private TerrainData[] terrain = new TerrainData[1];
+    [SerializeField] public Actor test;
+
+    public BoardState(Actor obj)
+    {
+        test = obj;
+    }
 }
