@@ -2,18 +2,34 @@ using System;
 using UnityEngine;
 
 /// <summary>
-///     The current state of the board?? (self-explanatory?)
+///     Data about a board that can be saved and loaded via serialization.
 /// </summary>
 [Serializable]
 public class BoardState
 {
     [SerializeField] private int width = 9;
     [SerializeField] private int height = 11;
-    [SerializeField] private TerrainData[] terrain = new TerrainData[1];
-    [SerializeField] public Actor test;
+    [SerializeField] private TerrainData[] terrain;
+    [SerializeField] public UnitData[] test;
+    [SerializeField] private bool isPlayerTurn;
 
-    public BoardState(Actor obj)
+    public BoardState(Defender obj)
     {
-        test = obj;
+        var test1 = new UnitData(obj);
+        test = new[] {test1};
+        terrain = new TerrainData[width * height];
+    }
+}
+
+[Serializable]
+public struct UnitData
+{
+    [SerializeField] public GameObject defender;
+    [SerializeField] public int health;
+
+    public UnitData(Defender def)
+    {
+        defender = def.gameObject;
+        health = def.hp;
     }
 }

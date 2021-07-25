@@ -41,3 +41,4 @@ Must contain:
     all units
     location, hit points, action points of all units
     turn order, objective for AI
+player actions modify the board state, which then modify what the player sees (MVC)

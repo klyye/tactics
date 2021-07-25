@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
 
     public void SaveState()
     {
-        var actor = FindObjectOfType<Actor>();
+        var actor = FindObjectOfType<Defender>();
         Debug.Log($"Found actor {actor.name}");
         var state = new BoardState(actor);
         var json = JsonUtility.ToJson(state, true);
@@ -54,8 +54,10 @@ public class GameManager : MonoBehaviour
     {
         var json = File.ReadAllText(Application.persistentDataPath + SAVE_PATH);
         var state = (BoardState)JsonUtility.FromJson(json, typeof(BoardState));
-        Instantiate(state.test, Vector3.zero, Quaternion.identity);
-        Debug.Log($"Loaded actor {state.test.name}");
+        var def = state.test[0].defender.GetComponent<Defender>();
+        def.SetHealth(1);
+        Instantiate(def, Vector3.zero, Quaternion.identity);
+        Debug.Log($"Loaded actor {def.name}");
     }
 
     public void Quit()

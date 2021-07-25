@@ -33,12 +33,18 @@ public class Defender : MonoBehaviour
 
     /// <summary>
     ///     Hit this defender for dmg damage, taking away its health.
+    ///     Will trigger any on-hit effects.
     /// </summary>
     /// <param name="dmg">The amount of damage to deal.</param>
     public void TakeDamage(int dmg)
     {
-        _hp -= dmg;
+        _hp = Math.Min(_hp - dmg, maxHp);
         if (_hp <= 0) Die();
+    }
+
+    public void SetHealth(int health)
+    {
+        _hp = Math.Min(health, maxHp);
     }
 
     /// <summary>
