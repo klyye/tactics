@@ -55,8 +55,8 @@ public class GameManager : MonoBehaviour
         var json = File.ReadAllText(Application.persistentDataPath + SAVE_PATH);
         var state = (BoardState)JsonUtility.FromJson(json, typeof(BoardState));
         var def = state.test[0].defender.GetComponent<Defender>();
-        def.SetHealth(1);
-        Instantiate(def, Vector3.zero, Quaternion.identity);
+        var spawned = Instantiate(def, Vector3.zero, Quaternion.identity);
+        spawned.SetHealth(1);
         Debug.Log($"Loaded actor {def.name}");
     }
 
