@@ -16,7 +16,31 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: cfc61db9055d6c546ab950fa712e2f67
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 042b633d0b22a8245bfa46d964ea334c
+    m_Address: Assets/Prefabs/Dark Elemental.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4a81a850ff20c5a40aacc6d88e4395be
+    m_Address: Assets/Prefabs/Earth Elemental.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d0ad4751a1b22554eba74f75456f2418
+    m_Address: Assets/Prefabs/Light Elemental.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1ca83ccc7503d5b428e615574fa576a6
+    m_Address: Assets/Prefabs/Plant Elemental.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 84746642a5d4f1540bd246453f1feef4, type: 2}
   m_SchemaSet:
